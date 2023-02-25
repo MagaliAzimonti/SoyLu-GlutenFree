@@ -1,0 +1,136 @@
+
+/* ESTILOS HOW */
+.mainHow {
+    background: #FDF9F7;
+}
+@media (max-width: 1099px) {
+
+    .howDesktopIcons {
+        display: none;
+    }
+    
+    .mainHow  {
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        align-items: center;
+        text-align: center;
+    }
+    
+   .mainHow .mainComoLoHacemostitle {
+        margin-top: 32px;
+        text-align: center;
+        width: 100%;
+        padding: 0 10px;
+        height: 36px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    } 
+    
+    .mainHow .twitterVerifiedBadge {
+        width: 60px;
+        height: 60px;
+        margin-top: 32px;
+    }
+    
+    .mainHow .textosDehow {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 16px;
+        height: 48px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .mainHow .glutenImageshow {
+        width: 62px;
+        height: 65px;
+        margin-top: 32px;
+    }
+    
+    .mainHow .textoDeHow1 {
+        margin-top: 21px;
+        width: 100%;
+        padding: 0 10px;
+        height: 96px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    
+    .mainHow .textoHow2 {
+        margin:0;
+        padding:0;
+        margin-top: 16px;
+        width: 100%;
+        padding: 0 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+       
+    }
+    
+    .mainHow .eclipseOrder {
+        background-image: url(../images/eclipse_orange_one.png);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        height: 200px;
+    }
+    
+    .mainHow .eclipseOrder .divDelButtonDeHow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        width: 143px;
+        height: 44px;
+        position: relative;
+        background: #F2A654;
+        border-radius: 100px;
+        border-width: 0px;
+        margin-top: 47px;
+        margin-bottom: 54px;
+    }
+    
+    .mainHow .eclipseOrder .divDelButtonDeHow a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #050505;
+    }
+
+    .textHow3 { 
+        display: none;
+    }    
+
+}

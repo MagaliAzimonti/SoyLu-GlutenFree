@@ -1,0 +1,490 @@
+
+/* ESTILOS INDEX */
+
+.firstSectionIndex {
+    height: 100%;
+}
+
+.heroImageIndex {
+    background-image: url(../images/hero_image_index.png);
+    height: 844px;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.firstSectionIndex main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.firstSectionIndex .titleTextIndex {
+    margin-top: 200px;
+    color: #000000;
+}
+
+
+
+
+
+.btnOrderIndexDiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 395px;
+}
+
+@media (max-width:316px){
+    .btnOrderIndexDiv {
+        display: flex;
+        flex-direction: column;
+        padding-top: 330px;
+    }
+}
+
+.btnOrderIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    border: 0;
+    width: 143px;
+    height: 44px;
+    background: #F2A654;
+    border-radius: 100px;
+}
+
+.firstSectionIndex main .btnOrderIndex a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #050505;
+
+}
+
+.secondSectionindex {
+    overflow: hidden;
+    padding-top: 32px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FDF9F7;
+}
+
+.secondSectionindex .logoIndex {
+    width: 180px;
+  
+}
+
+.secondSectionindex .secondTitleIndex {
+    width: 100%;
+    padding: 0 10px;
+    height: 36px;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    grid-area: second-title;
+}
+
+.secondSectionindex .iconGlutenFreeIndex {
+    background: url(../images/mobile/index_glutenfree_new.png);
+    margin-top: 64px;
+    width: 60px;
+    height: 60px;
+    border-radius: 47px;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: icon-gluten;
+}
+
+.secondSectionindex .textGlutenFreeIndex {
+    width: 100%;
+    padding: 0 10px;
+    height: 24px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    grid-area: text-gluten;
+}
+
+.secondSectionindex .iconCalidadIndex {
+    background: url(../images/mobile/index_quality_new.png);
+    width: 65px;
+    height: 65px;
+    margin-top: 64px;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: icon-calidad;
+}
+
+.secondSectionindex .textCalidadIndex {
+    width: 100%;
+    padding: 0 10px;
+    height: 24px;
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    grid-area: text-calidad;
+}
+
+.secondSectionindex .textSecondIndex {
+    width: 100%;
+    padding: 0 10px;
+    height: 96px;
+    margin-top: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    grid-area: secon-title;
+}
+
+.secondSectionindex .circleIndex {
+    margin-top: 33px;
+    background-image: url(../images/eclipse_orange_one.png);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    grid-area: circle-area;
+}
+
+
+.thirdSectionIndex {
+    padding-top: 32px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    /* align-items: center; */
+    background: #FDF9F7;
+}
+
+/* Carrusel 1 */
+.indexCarouselLine {
+    display: flex;
+    flex-direction: column;
+    /*   align-items: center; */
+    justify-content: center;
+
+
+}
+
+.thirdSectionIndex .thirdTitleIndex {
+    width: 100%;
+    padding: 0 10px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.slider {
+    margin-top: 48px;
+    z-index: 100;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+
+
+}
+
+
+
+.elemento {
+    flex: 1 0 auto;
+    margin: 0 15px;
+    width: 160px;
+    height: 160px;
+}
+
+.carousel1P {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #2F2F2F;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.btnVerMasIndexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.btnVerMasIndex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    border-width: 0;
+    width: 116px;
+    height: 44px;
+    background: #F2A654;
+    border-radius: 100px;
+}
+
+.btnVerMasIndex a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #050505;
+}
+
+/* Carrusel 2 */
+.fourthTitleIndex {
+    width: 100%;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 32px;
+    text-align: center;
+    color: #2F2F2F;
+    z-index: 10;
+
+}
+
+.indexCarouselLineTwo {
+    display: flex;
+    flex-direction: column;
+    /*   align-items: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sliderTwo {
+    margin-top: 48px;
+    z-index: 100;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    padding-bottom: 30px;
+}
+
+
+
+.elementoTwo {
+    background-image: url(../images/Vector_carrusel2.png);
+    flex: 1 0 auto;
+    margin: 0 10px;
+    width: 171px;
+    height: 192px;
+    box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+
+
+}
+
+.elementoTwo p {
+    margin: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+
+
+
+
+
+/* MediasQueriesCarouselIndex */
+
+@media (max-width:1099px) {
+    .carrousel {
+        display: none;
+    }
+
+    .carrouselTwo {
+        display: none;
+    }
+
+    .secondSectionindex .circleIndex .btnMoreIndex {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 8px;
+        width: 152px;
+        height: 44px;
+        background: #F2A654;
+        border-radius: 100px;
+        border-width: 0px;
+        margin-top: 55px;
+        margin-bottom: 46px;
+    }
+    
+    
+    .secondSectionindex .circleIndex .btnMoreIndex a {
+        font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.1px;
+color: #050505;
+    }
+
+    .textGlutenFreeIndex {
+        margin-bottom: 30px;
+    }
+
+    .firstSectionIndex .titleTextIndex .firstTitleIndex {
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        text-align: center;
+    
+    }
+    
+    .firstSectionIndex .titleTextIndex .textIndex {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        margin-top: -6px;
+        text-align: center;
+    }
+
+    .thirdSectionIndex footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    
+    }
+
+    .thirdSectionIndex footer .footerTitle {
+        width: 100%;
+        padding: 0 10px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .thirdSectionIndex footer .footerIcons {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 17px;
+        padding-bottom: 37px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    
+.iconFacebook {
+    background-image: url(../images/mobile/index_fb_new.png);
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconInstagram {
+    background-image: url(../images/mobile/index_ig_new.png);
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.iconWhatsapp {
+    background-image: url(../images/mobile/index_wp_new.png);
+    width: 26px;
+    height: 26px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rectangleCarouselOne {
+    height: 112px;
+    position: absolute;
+    transform: rotate(-24.61deg);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
+    margin-left: -100px;
+    background-size: cover;
+    background-position: center;
+    width: 300%;
+    background-position: center;
+    margin-top: -820px;
+}
+
+.rectangleCarouselTwo {
+    height: 112px;
+    position: absolute;
+    transform: matrix(-0.91, -0.42, -0.42, 0.91, 0, 0);
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
+    margin-left: -100px;
+    background-size: cover;
+    background-position: center;
+    width: 300%;
+    background-position: center;
+    margin-bottom: -620px;
+}
+
+}
