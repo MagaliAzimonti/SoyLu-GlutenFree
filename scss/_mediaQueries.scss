@@ -2279,7 +2279,8 @@ width: 436px
     }
 }
 
-@media screen and (min-width:1440px) {    
+/* Media queries -> Estilos contact */
+@media screen and (min-width:1200px) {    
     .divContactIformation {
         display: none;
     }

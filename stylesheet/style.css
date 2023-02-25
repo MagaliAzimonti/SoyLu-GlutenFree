@@ -903,7 +903,7 @@ main {
     background-repeat: no-repeat; } }
 
 /* ESTILOS CONTACT */
-@media (max-width: 1439px) {
+@media (max-width: 1199px) {
   .mainContact .formularioContact form .formFieldset .divDelButtonDelFormulario .buttonDelformulario1 {
     display: flex;
     flex-direction: column;
@@ -4051,7 +4051,8 @@ fieldset {
     padding-bottom: 300px;
     bottom: 0; } }
 
-@media screen and (min-width: 1440px) {
+/* Media queries -> Estilos contact */
+@media screen and (min-width: 1200px) {
   .divContactIformation {
     display: none; }
   .pContactInformation {
