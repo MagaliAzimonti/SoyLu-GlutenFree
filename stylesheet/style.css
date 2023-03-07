@@ -53,6 +53,8 @@ li a:hover {
 
 /* MediaQueriesHeader */
 @media (max-width: 1049px) {
+  nav .fa-chevron-down {
+    display: none; }
   main {
     padding-top: 109px; }
   nav {
