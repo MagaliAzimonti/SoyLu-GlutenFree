@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 1099px) {
+    .titleTortasDesk {
+        display: none;
+    }
+    
     .firstSectionBakery {
         display: flex;
         flex-direction: column;
@@ -46,8 +50,8 @@
 
     .titlePanaderia {
         z-index: 10;
-        margin-top: 42px;
-        background-image: url(../images/bakery_one.png);
+        margin-top: 32px;
+        background-image: url(../images/mobile/bakery_image_one.png);
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -57,7 +61,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 32px;
+        margin-bottom: 48px;
     }
 
     .rectangleBakery {
@@ -69,7 +73,7 @@
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -150px;
+        margin-top: -170px;
     }
 
     .titlePanaderia h2 {
@@ -81,7 +85,7 @@
     }
 
     .divPanaderia {
-        margin-top: 33px;
+        margin-top: 48px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -95,6 +99,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 48px;
+        margin-bottom: 56px;
     }
 
     .btnBakeryDiv .btnBakery {
@@ -104,8 +110,6 @@
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 32px;
-        margin-bottom: 50px;
         position: relative;
         width: 143px;
         height: 44px;
@@ -139,8 +143,8 @@
 
     .titleTortas {
         z-index: 10;
-        margin-top: 42px;
-        background-image: url(../images/bakery_two.png);
+        margin-top: 32px;
+        background-image: url(../images/mobile/bakery_image_two.png);
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -150,7 +154,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 32px;
+        margin-bottom: 48px;
     }
 
     .rectangleBakeryTwo {
@@ -162,8 +166,8 @@
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -130px;
-        margin-bottom: 20px;
+        margin-top: -140px;
+        margin-bottom: 30px;
     }
 
     .titleTortas h2 {
@@ -177,8 +181,6 @@
     .secondSectionBakery .listOne div {
         margin-bottom: 32px;
         z-index: 20;
-
-
     }
 
     .secondSectionBakery .listOne div h3 {
@@ -204,13 +206,17 @@
     }
 
     .btnBakeryTwo {
+        display: none
+    }
+
+    /* .btnBakeryTwo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 15px;
+        margin-top: 51px;
         margin-bottom: 50px;
         position: relative;
         width: 143px;
@@ -230,7 +236,7 @@
         text-align: center;
         letter-spacing: 0.1px;
         color: #050505;
-    }
+    } */
 
     .imgBakeryDkTwo {
         display: none;

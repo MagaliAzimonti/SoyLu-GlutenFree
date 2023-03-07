@@ -8,7 +8,7 @@
 }
 
 .heroImageIndex {
-    background-image: url(../images/hero_image_index.png);
+    background-image: url(../images/mobile/hero_image_index.png);
     height: 844px;
     background-size: cover;
     background-position: center center;
@@ -25,17 +25,13 @@
 
 .firstSectionIndex .titleTextIndex {
     margin-top: 200px;
-    color: #000000;
+    color: #FDF9F7;
 }
-
-
-
-
 
 .btnOrderIndexDiv {
     display: flex;
     flex-direction: column;
-    padding-top: 395px;
+    padding-top: 345px;
 }
 
 @media (max-width:316px){
@@ -72,28 +68,18 @@
 }
 
 .secondSectionindex {
-    
     overflow: hidden;
-    padding-top: 32px;
     position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FDF9F7;
-}
-
-.secondSectionindex .logoIndex {
-    width: 180px;
-  
 }
 
 .secondSectionindex .secondTitleIndex {
     width: 100%;
     padding: 0 10px;
-    height: 36px;
-    margin-top: 32px;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -103,60 +89,23 @@
     grid-area: second-title;
 }
 
-.secondSectionindex .iconGlutenFreeIndex {
-    background: url(../images/mobile/index_glutenfree_new.png);
-    margin-top: 64px;
-    width: 60px;
-    height: 60px;
-    border-radius: 47px;
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-area: icon-gluten;
-}
+
 
 .secondSectionindex .textGlutenFreeIndex {
-    width: 100%;
-    padding: 0 10px;
-    height: 24px;
-    margin-top: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
     grid-area: text-gluten;
 }
 
-.secondSectionindex .iconCalidadIndex {
-    background: url(../images/mobile/index_quality_new.png);
-    width: 65px;
-    height: 65px;
-    margin-top: 64px;
-    background-position: center;
-    background-repeat: no-repeat;
-    grid-area: icon-calidad;
-}
+
 
 .secondSectionindex .textCalidadIndex {
-    width: 100%;
-    padding: 0 10px;
-    height: 24px;
-    margin-top: 16px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
     grid-area: text-calidad;
 }
 
+
 .secondSectionindex .textSecondIndex {
-    width: 100%;
+    width: 95%;
     padding: 0 10px;
-    height: 96px;
-    margin-top: 64px;
+    margin-top: 74px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -168,7 +117,6 @@
 
 .secondSectionindex .circleIndex {
     margin-top: 33px;
-    background-image: url(../images/eclipse_orange_one.png);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -182,15 +130,24 @@
 
 
 .thirdSectionIndex {
-    padding-top: 32px;
+ 
     position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: hidden;
+   
     /* align-items: center; */
-    background: #FDF9F7;
+}
+.fourthSectionIndex {
+ 
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   overflow: hidden;
+    /* align-items: center; */
 }
 
 /* Carrusel 1 */
@@ -203,36 +160,21 @@
 
 }
 
-.thirdSectionIndex .thirdTitleIndex {
-    width: 100%;
-    padding: 0 10px;
-    height: 36px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #000000;
-
-}
-
 .slider {
     margin-top: 48px;
     z-index: 100;
     display: flex;
     flex-wrap: nowrap;
     overflow: scroll;
-
-
+    margin-left: 5px;
 }
-
-
 
 .elemento {
     flex: 1 0 auto;
-    margin: 0 15px;
-    width: 160px;
+    margin: 0 10px;
+    width: 170px;
     height: 160px;
+    border-radius: 10px;
 }
 
 .carousel1P {
@@ -245,13 +187,7 @@
     margin-top: 5px;
 }
 
-.btnVerMasIndexDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 55px;
-}
+
 
 .btnVerMasIndex {
     display: flex;
@@ -280,19 +216,7 @@
 }
 
 /* Carrusel 2 */
-.fourthTitleIndex {
-    width: 100%;
-    padding: 0 10px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 32px;
-    text-align: center;
-    color: #2F2F2F;
-    z-index: 10;
 
-}
 
 .indexCarouselLineTwo {
     display: flex;
@@ -342,6 +266,56 @@
     color: #2F2F2F;
 }
 
+.secondSectionindex .iconGlutenFreeIndex {
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: icon-gluten;
+}
+
+.secondSectionindex .iconCalidadIndex {
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-area: icon-calidad;
+}
+
+
+@media (max-width: 450px) {
+    .rectangleCarouselOne {
+        height: 112px;
+        position: absolute;
+        transform: rotate(-24.61deg);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
+        margin-left: -100px;
+        background-size: cover;
+        background-position: center;
+        width: 300%;
+        background-position: center;
+        margin-top: -200px;
+    }
+    
+    .rectangleCarouselTwo {
+        height: 112px;
+        position: absolute;
+        transform: matrix(-0.91, -0.42, -0.42, 0.91, 0, 0);
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
+        margin-left: -100px;
+        background-size: cover;
+        background-position: center;
+        width: 300%;
+        background-position: center;
+        margin-bottom: -270px;
+    }
+}
+@media (max-width:1099px) and (min-width: 451px) {
+    .rectangleCarouselOne {
+        display: none;
+    }
+    
+    .rectangleCarouselTwo {
+        display: none;
+    }
+}
+
 
 
 
@@ -356,6 +330,24 @@
 
     .carrouselTwo {
         display: none;
+    }
+
+    .secondSectionindex .secondTitleIndex {
+        margin-top: 48px;
+    }
+
+    .secondSectionindex .circleIndex {
+        margin-top: 90px;
+        background-image: url(../images/eclipse_orange_one.png);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        grid-area: circle-area;
     }
 
     .secondSectionindex .circleIndex .btnMoreIndex {
@@ -374,6 +366,7 @@
         margin-top: 55px;
         margin-bottom: 46px;
     }
+
     
     
     .secondSectionindex .circleIndex .btnMoreIndex a {
@@ -386,6 +379,57 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.1px;
 color: #050505;
+    }
+
+    .secondSectionindex .iconGlutenFreeIndex {
+        background: url(../images/mobile/index_glutenfree_new.png);
+        margin-top: 91px;
+        width: 65px;
+        height: 65px;
+        border-radius: 47px;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: icon-gluten;
+    }
+
+    .secondSectionindex .textGlutenFreeIndex {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        grid-area: text-gluten;
+    }
+
+    .secondSectionindex .iconCalidadIndex {
+        background: url(../images/mobile/index_quality_new.png);
+        width: 65px;
+        height: 65px;
+        margin-top: 64px;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-area: icon-calidad;
+    }
+
+    .secondSectionindex .textCalidadIndex {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+        grid-area: text-calidad;
     }
 
     .textGlutenFreeIndex {
@@ -410,7 +454,7 @@ color: #050505;
         text-align: center;
     }
 
-    .thirdSectionIndex footer {
+    .fourthSectionIndex footer {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -418,7 +462,8 @@ color: #050505;
     
     }
 
-    .thirdSectionIndex footer .footerTitle {
+    .fourthSectionIndex footer .footerTitle {
+        margin-bottom: 0px;
         width: 100%;
         padding: 0 10px;
         text-align: center;
@@ -430,7 +475,7 @@ color: #050505;
         color: #000000;
     }
 
-    .thirdSectionIndex footer .footerIcons {
+    .fourthSectionIndex footer .footerIcons {
         display: flex;
         justify-content: space-between;
         padding-top: 17px;
@@ -464,31 +509,84 @@ color: #050505;
     background-repeat: no-repeat;
 }
 
-.rectangleCarouselOne {
-    height: 112px;
-    position: absolute;
-    transform: rotate(-24.61deg);
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
-    margin-left: -100px;
-    background-size: cover;
-    background-position: center;
-    width: 300%;
-    background-position: center;
-    margin-top: -820px;
+
+.textSecondIndex p {
+    margin: 0px;
 }
 
-.rectangleCarouselTwo {
-    height: 112px;
-    position: absolute;
-    transform: matrix(-0.91, -0.42, -0.42, 0.91, 0, 0);
-    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
-    margin-left: -100px;
-    background-size: cover;
-    background-position: center;
-    width: 300%;
-    background-position: center;
-    margin-bottom: -620px;
+.thirdSectionIndex {
+    overflow: hidden;
+}
+
+.thirdSectionIndex .thirdTitleIndex {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.fourthTitleIndex {
+    width: 100%;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 32px;
+    text-align: center;
+    color: #2F2F2F;
+    z-index: 10;
+}
+
+
+.secondSectionindex .textCalidadIndex  p {
+    margin: 2px;
+}
+
+.secondSectionindex .textGlutenFreeIndex p {
+    margin: 0px;
+}
+
+.btnVerMasIndexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
 }
 
 }
+
+@media (max-width: 350px) {
+    .secondSectionindex .textCalidadIndex {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        grid-area: text-calidad;
+    }
+}
+
+@media (max-width:380px) {
+    .secondSectionindex .circleIndex {
+        background-position: center;
+    }
+}
+
+
+
 

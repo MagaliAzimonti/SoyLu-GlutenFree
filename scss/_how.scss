@@ -3,6 +3,15 @@
 .mainHow {
     background: #FDF9F7;
 }
+
+
+@media (max-width: 360px) {
+    .mainHow .eclipseOrder {
+        background-position: center;
+    }
+}
+
+
 @media (max-width: 1099px) {
 
     .howDesktopIcons {
@@ -38,9 +47,14 @@
         height: 60px;
         margin-top: 32px;
     }
+
+    b {
+        font-weight:400;
+    }
+    
     
     .mainHow .textosDehow {
-        width: 100%;
+        width: 98%;
         padding: 0 10px;
         margin-top: 16px;
         height: 48px;
@@ -53,14 +67,14 @@
     }
     
     .mainHow .glutenImageshow {
-        width: 62px;
-        height: 65px;
+        width: 60px;
+        height: 60px;
         margin-top: 32px;
     }
     
     .mainHow .textoDeHow1 {
         margin-top: 21px;
-        width: 100%;
+        width: 98%;
         padding: 0 10px;
         height: 96px;
         font-style: normal;
@@ -70,12 +84,17 @@
         text-align: center;
     }
     
+    .mainHow .casaDeGluten {
+        width: 67.5px;
+        height: 60px;
+        margin-top: 32px;
+    }
     
     .mainHow .textoHow2 {
         margin:0;
         padding:0;
         margin-top: 16px;
-        width: 100%;
+        width: 98%;
         padding: 0 10px;
         font-style: normal;
         font-weight: 400;
@@ -92,12 +111,11 @@
         width: 100%;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
         position: relative;
         justify-content: center;
         align-items: center;
-        margin-top: 100px;
-        height: 200px;
+        margin-top: 17px;
+        height: 150px;
     }
     
     .mainHow .eclipseOrder .divDelButtonDeHow {

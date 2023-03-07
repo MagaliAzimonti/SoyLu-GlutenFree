@@ -12,7 +12,7 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="stylesheet/style.css">
   <!-- Favicon -->
-  <link rel="shortcut icon" href="images/Group.png">
+  <link rel="shortcut icon" href="images/Logo_Soylu_new.png">
   <a href="https://www.favicon-generator.org/"></a>
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/d1ce868220.js" crossorigin="anonymous"></script>
@@ -23,13 +23,13 @@
     <div class="heroImageIndex">
       <!-- NAV -->
       <header>
-        <nav>
+        <nav class="headerIndex">
           <input type="checkbox" id="check">
           <label for="check" class="checkbtn">
             <img class="navbarIcons" src="./images/icon_menu_white.png" alt="">
           </label>
           <a href="index.html" class="enlace">
-            <img src="./images/Logo_Soylu_new.png" alt="" class="logo">
+            <img src="./images/desktop/Logo-soylu-index.png" alt="" class="logo logoDesktopIndex">
           </a>
           <ul>
             <li><a class="active" href="index.html">Inicio</a></li>
@@ -37,7 +37,7 @@
             <li><a href="./pages/how.html">Cómo lo hacemos</a></li>
             <li class="prods">
               <a class="not-active" href="./pages/products.html">Productos</a>
-              <img class="dropdownItem" src="./images/dropdown_item.png" alt="">
+              <i class="fa-solid fa-chevron-down"></i>
               <ul class="dropdownMenu">
                 <li class="liDropdown"><a href="./pages/products.html">Todos los productos</a></li>
                 <li class="liDropdown"><a href="./pages/products/favs.html">Los más vendidos</a></li>
@@ -47,7 +47,7 @@
               </ul>
             </li>
             <li><a href="./pages/order.html">Realizá tu pedido</a></li>
-            <li><a href="./pages/contact.html">Contactanos</a></li>
+            <li><a href="./pages/contact.html">Contacto</a></li>
           </ul>
         </nav>
       </header>
@@ -64,17 +64,21 @@
   </div>
 
   <div class="secondSectionindex">
-    <img class="logoIndex" src="./images/Logo_Soylu_new.png" alt="">
     <h2 class="secondTitleIndex">Disfrutá lo que te hace bien</h2>
     <div class="iconGlutenFreeIndex"> </div>
     <div class="textGlutenFreeIndex">
-      <p>100%  sin gluten</p>
+      <p>100% sin gluten</p>
       <p>Sin contaminación cruzada.</p>
     </div>
     <div class="iconCalidadIndex"></div>
-    <p class="textCalidadIndex">Ingredientes saludables y de calidad</p>
-    <p class="textSecondIndex">Tu salud es lo más importante. En Soylu contamos con estrictos cuidados durante todo el
-      proceso de elaboración de nuestros productos.</p>
+    <div class="textCalidadIndex">
+      <p>Ingredientes</p>
+      <p>saludables y de calidad</p>
+    </div>
+    <div class="textSecondIndex">
+      <p>Tu salud es lo más importante.</p>
+      <p>En Soylu contamos con estrictos cuidados durante todo el proceso de elaboración de nuestros productos.</p>
+    </div>
     <div class="circleIndex">
       <button class="btnMoreIndex"><a href="./pages/how.html">Conocé más</a></button>
     </div>
@@ -82,48 +86,30 @@
 
   <!-- CAROUSEL 1-->
   <div class="thirdSectionIndex">
-    <div>
+    <!-- <div> -->
       <h2 class="thirdTitleIndex">Los más vendidos</h2>
-    </div>
-    <!-- Version Mobile -->
-    <div class="indexCarouselLine">
-      <div class="slider">
-        <div>
-          <img src="./images/img_index_cheesecake.png" alt="" class="elemento">
-          <p class="carousel1P">Cheesecake de frutos rojos</p>
-        </div>
-        <div>
-          <img src="./images/img_index_medallones.png" alt="" class="elemento">
-          <p class="carousel1P">Medallones de brócoli</p>
-        </div>
-        <div>
-          <img src="./images/img_index_sandwich.png" alt="" class="elemento">
-          <p class="carousel1P">Sándwich de palta</p>
-        </div>
-        <div>
-          <img src="./images/img_index_ensalada.png" alt="" class="elemento">
-          <p class="carousel1P">Ensalada Gourmet</p>
-        </div>
-        <div>
-          <img src="./images/img_index_wraps.png" alt="" class="elemento">
-          <p class="carousel1P">Wrap de pollo</p>
-        </div>
-        <div>
-          <img src="./images/img_index_prepizza.png" alt="" class="elemento">
-          <p class="carousel1P">Prepizza</p>
-        </div>
-      </div>
-    </div>
-    <div class="rectangleCarouselOne"></div>
+    <!-- </div> -->
+
     <!-- Versión Desktop -->
     <div class="carrousel">
       <div class="conteCarrousel">
+        
         <div class="itemCarrousel" id="itemCarrousel-1">
+          <h2 class="thirdTitleIndexDesk">Los más vendidos</h2>
           <div class="itemCarrouselTarjeta">
             <div class="divImagenesCarrousel">
-              <img src="./images/bgCarouselDk.png" alt="">
-              <img src="./images/bgCarouselDk.png" alt="">
-              <img src="./images/bgCarouselDk.png" alt="">
+              <div>
+                <img src="./images/desktop/carousel_first_one.png" alt="">
+                <p class="carousel1P">Cheesecake de frutos rojos</p>
+              </div>
+              <div>
+                <img src="./images/desktop/carousel_first_two.png" alt="">
+                <p class="carousel1P">Medallones de brócoli</p>
+              </div>
+              <div>
+                <img src="./images/desktop/carousel_first_three.png" alt="">
+                <p class="carousel1P">Sándwich de palta</p>
+              </div>
             </div>
           </div>
           <div class="itemCarrouselArrows">
@@ -135,11 +121,21 @@
           </div>
         </div>
         <div class="itemCarrousel" id="itemCarrousel-2">
+          <h2 class="thirdTitleIndexDesk">Los más vendidos</h2>
           <div class="itemCarrouselTarjeta">
             <div class="divImagenesCarrousel">
-              <img src="./images/bgCarouselDk.png" alt="">
-              <img src="./images/bgCarouselDk.png" alt="">
-              <img src="./images/bgCarouselDk.png" alt="">
+              <div>
+                <img src="./images/desktop/carousel_first_four.png" alt="">
+                <p class="carousel1P">Ensalada Gourmet</p>
+              </div>
+              <div>
+                <img src="./images/desktop/carousel_first_five.png" alt="">
+                <p class="carousel1P">Wrap de pollo</p>
+              </div>            
+              <div>
+                <img src="./images/desktop/carousel_first_six.png" alt="">
+                <p class="carousel1P">Medialunas de manteca</p>
+              </div>     
             </div>
           </div>
           <div class="itemCarrouselArrows">
@@ -151,21 +147,60 @@
           </div>
         </div>
       </div>
-      <div class="countPrueba">
+      <!-- <div class="countPrueba">
         <a href="#itemCarrousel-1"><button>.</button></a>
         <a href="#itemCarrousel-2"><button>.</button></a>
+      </div> -->
+    </div>
+
+
+    <!-- Version Mobile -->
+    <div class="indexCarouselLine">
+      <div class="slider">
+        <div>
+          <img src="./images/mobile/carousel_second_one.png" alt="" class="elemento">
+          <p class="carousel1P">Cheesecake de frutos rojos</p>
+        </div>
+        <div>
+          <img src="./images/mobile/carousel_second_two.png" alt="" class="elemento">
+          <p class="carousel1P">Medallones de brócoli</p>
+        </div>
+        <div>
+          <img src="./images/mobile/carousel_second_three.png" alt="" class="elemento">
+          <p class="carousel1P">Sándwich de palta</p>
+        </div>
+        <div>
+          <img src="./images/mobile/carousel_second_four.png" alt="" class="elemento">
+          <p class="carousel1P">Ensalada Gourmet</p>
+        </div>
+        <div>
+          <img src="./images/mobile/carousel_second_five.png" alt="" class="elemento">
+          <p class="carousel1P">Wrap de pollo</p>
+        </div>
+        <div>
+          <img src="./images/mobile/carousel_second_six.png" alt="" class="elemento">
+          <p class="carousel1P">Medialunas de manteca</p>
+        </div>
       </div>
     </div>
+    <div class="rectangleCarouselOne"></div>
+    
     <div class="btnVerMasIndexDiv">
       <button class="btnVerMasIndex"><a href="./pages/products/favs.html">Ver más</a></button>
     </div>
+  </div>
+  <div class="fourthSectionIndex">
 
     <!-- CAROUSEL 2-->
     <h2 class="fourthTitleIndex">Experiencia Soylu</h2>
+    
+    <div class="rectangleCarouselTwo"></div>
     <!-- Versión desktop -->
     <div class="carrouselTwo">
+
       <div class="conteCarrouselTwo">
         <div class="itemCarrouselTwo" id="itemCarrouselTwo-1">
+          <h2 class="fourthTitleIndexDesk">Experiencia Soylu</h2>
           <div class="itemCarrouselTarjetaTwo">
             <div class="divImagenesCarrouselTwo">
               <img src="./images/ClienteDesktop-1.png" alt="">
@@ -183,6 +218,7 @@
           </div>
         </div>
         <div class="itemCarrouselTwo" id="itemCarrouselTwo-2">
+          <h2 class="fourthTitleIndexDesk">Experiencia Soylu</h2>
           <div class="itemCarrouselTarjetaTwo">
             <div class="divImagenesCarrouselTwo">
               <img src="./images/ClienteDesktop-4.png" alt="">
@@ -200,10 +236,10 @@
           </div>
         </div>
       </div>
-      <div class="countPruebaTwo">
+      <!-- <div class="countPruebaTwo">
         <a href="#itemCarrouselTwo-1"><button>.</button></a>
         <a href="#itemCarrouselTwo-2"><button>.</button></a>
-      </div>
+      </div> -->
     </div>
     <!-- Versión mobile -->
     <div class="indexCarouselLineTwo">
@@ -248,10 +284,9 @@
         </div>
       </div>
     </div>
-    <div class="rectangleCarouselTwo"></div>
-
-
-    </main>
+  </main>
+    
+    
     <footer class="footerIndex">
       <h2 class="footerTitle">Seguinos</h2>
       <div class="footerIcons">
@@ -261,6 +296,9 @@
       </div>
     </footer>
   </div>
+  
+  
+  
 
 
   <!-- Bootstrap Scripts -->

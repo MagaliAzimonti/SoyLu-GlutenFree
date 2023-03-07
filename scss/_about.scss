@@ -34,16 +34,16 @@ main {
     .heroImageAbout {
         z-index: 10;
         background-image: url(../images/pan.png);
+        height: 176px;
         width: 90%;
         border-radius: 10px;
-        height: 160px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-top: 120px;
+        margin-top: 75px;
     }
 
     .rectangleAboutOne {
@@ -55,8 +55,8 @@ main {
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -150px;
-        margin-bottom: 90px;
+        margin-top: -160px;
+        margin-bottom: 107px;
     }
 
 
@@ -140,21 +140,6 @@ main {
         text-align: start;
     }
 
-    .heroImageAboutTwo {
-        z-index: 10;
-        margin-top: 32px;
-        background-image: url(../images/pan.png);
-        width: 90%;
-        border-radius: 10px;
-        height: 160px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        margin-bottom: 32px;
-    }
 
     .rectangleAboutTwo {
         height: 112px;
@@ -165,7 +150,8 @@ main {
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -80px;
+        margin-top: 140px;
+        margin-bottom: -260px;
     }
 
     .valoresDiv {
@@ -186,6 +172,8 @@ main {
         line-height: 36px;
         color: #000000;
         text-align: center;
+        z-index: 10;
+
     }
 
     .secondSectionAbout .valoresDiv .listRow {
@@ -196,7 +184,6 @@ main {
     }
 
     .secondSectionAbout .valoresDiv .listRow div h3 {
-        padding-top: 8px;
         z-index: 20;
         font-style: normal;
         font-weight: 300;
