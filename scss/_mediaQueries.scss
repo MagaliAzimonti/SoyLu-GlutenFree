@@ -598,7 +598,7 @@
         background-position: center;
         width: 200%;
         background-position: center;
-        margin-top: 550px;
+        margin-top: 300px;
     }
 
     .firstSectionAbout h1 {
@@ -613,7 +613,7 @@
 
     .heroImageAbout {
         z-index: 10;
-        background-image: url(../images/heroImageAbout.png);
+        background-image: url(../images/desktop/about_hero_image.png);
         width: 80%;
         border-radius: 20px;
         height: 441px;
@@ -678,6 +678,7 @@
 
     .misionDiv {
         display: grid;
+        z-index: 20;
         align-items: center;
         justify-items: center;
         grid-template-columns: 1fr 1fr;
@@ -754,6 +755,7 @@
         display: grid;
         align-items: center;
         justify-items: center;
+        z-index: 20;
         /* grid-template-columns: 0fr 0fr 0fr 0fr; */
         grid-template-rows: 0fr 0fr 0fr 0fr;
         gap: 0px 0px;
@@ -1105,7 +1107,7 @@
         align-items: center;
         justify-content: center;
         background: #FFAA88;
-        height: 146px;
+        height: 82px;
     }
 
     .footerProds .imgCamionProds {
@@ -1114,10 +1116,11 @@
     }
 
     .footerProds p {
+        margin-top: 10px;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 20px;
+        line-height: 30px;
         display: flex;
         align-items: center;
         text-align: center;
@@ -2596,8 +2599,82 @@
     }
 
     .divContainerInformaccion2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 81px;
+        justify-content: center;
+        background: linear-gradient(180deg, #FFAA88 0%, #FFAA88 100%);
+    }
+
+    .houseFooter {
+        width: 41px;
+        height: 42px;
+        margin-top: 20px;
+    }
+
+    .contactInfoP {
+        font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 12px;
+display: flex;
+color: #2F2F2F;
+margin-top: 35px;
+margin-left: 28px;
+margin-right: 10px;
+    }
+
+    .contactInfoIconsWp {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-right: 4px;
+    }
+
+    .contactInfoIconsWp p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 12px;
+        color: #2F2F2F;
+        margin-top: 35px;
+        margin-right: 10px;
+    }
+
+    .contactInfoIconsWp img {
+       width: 22px;
+       height: 22px;
+       margin-top: 30px;
+       margin-right: 5px;
+    }
+
+    .contactInfoIconsMail {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    }
+
+    .contactInfoIconsMail img {
+        width: 25px;
+       height: 18px;
+       margin-top: 33px;
+       margin-right:5px;
+    }
+
+    .contactInfoIconsMail p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 12px;
+        color: #2F2F2F;
+        margin-top: 35px;
+    }
+
+    /* .divContainerInformaccion2 {
         display: grid;
-        height: 146px;
+        height: 81px;
         width: 100%;
         background-color: #FFAA88;
         align-items: center;
@@ -2612,9 +2689,9 @@
     }
 
     .houseFooter {
-        width: 81.23px;
-        height: 78px;
-        margin-top: -14px;
+        width: 41px;
+        height: 42px;
+        margin-bottom: 19px;
         grid-area: houseFooter;
     }
 
@@ -2675,7 +2752,7 @@
         font-size: 24px;
         line-height: 30px;
         color: #2F2F2F;
-    }
+    } */
 
 
 

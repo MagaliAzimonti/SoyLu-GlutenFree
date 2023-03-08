@@ -3,18 +3,18 @@
 
 @media (min-width: 1100px) {
     .footerAbout {  
-        height: 146px;
+        height: 81px;
         width: 100%;
         background: linear-gradient(180deg, #FFAA88 0%, #FFAA88 100%);
         display: grid;
         align-items: center;
         justify-items:center;
-        grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+        grid-template-columns: 1fr 1fr 1fr ;
         grid-template-rows: 1fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-          ". facebookAbout instagramAbout whatsappAbout .";
+          " instagramAbout whatsappAbout";
       }
       
       .facebookAbout { grid-area: facebookAbout; }
@@ -23,27 +23,27 @@
       
       .whatsappAbout { grid-area: whatsappAbout; }
 
-    .facebookAbout {
-        background-image: url(../images/iconFacebookAbout.png) ;
+      .footerAbout a .facebookAbout {
+        background-image: url(../images/mobile/about_icon_fb.svg) ;
         background-position: center;
         background-repeat: no-repeat;
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
     }
 
-    .instagramAbout {
-        background-image: url(../images/iconInstagramAbout.png);
+    .footerAbout a .instagramAbout {
+        background-image: url(../images/mobile/about_icon_ig.svg);
         background-position: center;
         background-repeat: no-repeat;
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
     }
 
-    .whatsappAbout {
-        background-image: url(../images/iconWhatsappAbout.svg);
+    .footerAbout a .whatsappAbout {
+        background-image: url(../images/mobile/about_icon_wp.svg);
         background-position: center;
         background-repeat: no-repeat;
-        width: 55px;
-        height: 55px;
+        width: 45px;
+        height: 45px;
     }
 }

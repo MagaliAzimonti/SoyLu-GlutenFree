@@ -50,11 +50,8 @@ li a:hover {
 }
 
 .checkbtn {
-    font-size: 30px;
-    color: #fff;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
     cursor: pointer;
     display: none;
 }
@@ -82,18 +79,28 @@ li a:hover {
         position: fixed;
         z-index: 999;
         box-shadow: 0 0 15px #ebe4e0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
         
     }
 
     .checkbtn {
         display: block;
+        width: 24px;
+        height: 24px;
+        margin-left: 85%;
+        margin-bottom: 40px;
     }
 
     .enlace {
-        margin-left: -25px;
-        margin-top: -12px;
-        width: 163px;
-        height: 143px;
+        /* margin-left: -25px;
+        margin-top: -12px; */
+        width: 144px;
+        display: flex;
+        flex-direction: row;
+        
+        margin-top: 5px;
     }
 
     .enlace img {
@@ -103,9 +110,10 @@ li a:hover {
     }
 
     .checkbtn img {
-        width: 24px;
-        height: 24px;
-        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+        
+       
 
     }
 
@@ -150,18 +158,10 @@ li a:hover {
         right: -30px;
     }
 
-    .headerAbout nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 130px;
+    
 
-    }
 
-    .headerAbout nav .checkbtn {
-        margin-left: 85%;
-    }
-
+    /* 
     .headerAbout nav ul {
         top: 130px;
         z-index: 999;
@@ -175,7 +175,7 @@ li a:hover {
     .headerAbout nav .enlace img {
         width: 100%;
         height: 100%;
-    }
+    } */
 
     .dropdownItem {
         display: none;
@@ -188,10 +188,10 @@ li a:hover {
 
      .headerIndex .enlace {
         position: absolute;
-        margin-left: 5px;
-        margin-top: 30px;
-        width: 103px;
-        height: 60.61px;
+        width: 84px;
+        height: 61.61px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 
     .headerIndex .enlace img {
@@ -199,65 +199,106 @@ li a:hover {
         height: 100%;
     }
 
+    .headerAbout {
+        justify-content: center;
+        height: 130px;
+
+    }
+    .headerAbout .checkbtn {
+       margin-bottom: 40px;
+    }
+
+    .headerAbout ul {
+        top: 130px;
+        z-index: 999;
+        
+    }
+
+    .headerAbout .enlace {
+        position: absolute;
+        width: 160.81px;
+        margin:0px;
+        padding: 0px;
+        top: 0;
+    
+    }
+
+    .headerAbout .enlace img {
+        width: 100%;
+        height: 100%;
+    } 
+
+   
+
     
 }
 
-@media (max-width: 952px) {
+/* @media (max-width: 952px) {
     .enlace {
-        padding-left: 20px;
+        padding-left: -20px;
+       height: 300px;
     }
-
-   /*  nav ul li a {
-        font-size: 14px;
-    } */
 }
-
+ */
 
 @media (max-width:1439px) and (min-width: 1050px) {
     nav {
-        height: 178px;
+        height: 132px;
         width: 100%;
+        /* de prueba */
         background-color: #FDF9F7;
         position: fixed;
         z-index: 999;
         box-shadow: 0 0 15px #ebe4e0;
+        display: flex;
+        align-items: center;
+        justify-content: end;
     }
 
     .enlace {
+        left: 0;
         position: absolute;
-        margin-top: -25px;
-        height: 219px;
-        width: 239px;
+        /* margin-top: -47px;
+        margin-left: -14px; */
+       width: 161px;
+       height: 161px;
+       margin-top: -10px;
+       margin-left: 10px;
     }
 
     .logo {
-        height: 100%;
         width: 100%;
+        height: 100%;
     }
 
-    nav ul {
-        float: right;
-        margin:0;
-        margin-right: 20px;
+    /* .logo {
+        width: 173px;
+        
+    } */
 
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        margin-top: 25px;
     }
 
     nav ul li {
         font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: -0.011em;
-        padding-top: 80px;
-        display: inline-block;
-        margin:0px;
-        /* line-height: 80px;
-        margin: 0 5px; */
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.011em;
+color: #2F2F2F;
+padding-right: 14px;
+display: inline-block;
     }
+
+   
+
 
     nav ul li a {
         color: #2F2F2F;
-        padding: 7px 13px;
 
     }
 
@@ -319,6 +360,7 @@ li a:hover {
         font-size: 16px;
         line-height: 20px;
         color: #2F2F2F;
+        padding-left: 10px;
     }
 
 
@@ -354,9 +396,10 @@ li a:hover {
     .headerIndex ul li a {
         color: #FDF9F7;
             font-size: 16px;
-            padding: 7px 13px;
             border-radius: 3px;
     }
+
+    
 
     .headerIndex .fa-chevron-down {
         color: #FDF9F7;
@@ -409,14 +452,14 @@ li a:hover {
 
     .headerIndex .enlace {
         position: absolute;
-        margin-top: 41px;
-        margin-left: 47px;
-        height: 96px;
-        width: 143px;
+       margin-left: 43px;
+       margin-top:-5px;
+        width: 93px;
+        height: 68px;
     }
 
     main {
-        padding-top:178px;
+        padding-top:132px;
     }
 
 }
@@ -424,21 +467,25 @@ li a:hover {
 
 @media (min-width: 1440px) {
     nav {
-        height: 208px;
+        height: 132px;
         width: 100%;
         /* de prueba */
         background-color: #FDF9F7;
         position: fixed;
         z-index: 999;
         box-shadow: 0 0 15px #ebe4e0;
+        display: flex;
+        align-items: center;
     }
 
     .enlace {
         position: absolute;
-        margin-top: -47px;
-        margin-left: -14px;
-       width: 289px;
-       height: 289px;
+        /* margin-top: -47px;
+        margin-left: -14px; */
+       width: 161px;
+       height: 161px;
+       margin-top: -10px;
+       margin-left: 10px;
     }
 
     .logo {
@@ -452,24 +499,24 @@ li a:hover {
     } */
 
     nav ul {
+        margin-left: 421px;
         float: right;
+        margin-top: 25px;
     }
 
     nav ul li {
         font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: -0.011em;
-        padding-top: 90px;
-        display: inline-block;
-        /* line-height: 80px;
-        margin: 0 5px; */
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: -0.011em;
+color: #2F2F2F;
+padding-right: 34px;
     }
 
     nav ul li a {
         color: #2F2F2F;
-        padding: 7px 13px;
+        /* padding: 7px 13px; */
         border-radius: 3px;
     }
 
@@ -520,7 +567,6 @@ li a:hover {
         width: 100%;
         margin: 0;
         padding: 0;
-        padding-left: 5px;
         border-bottom: 1px solid rgba(255, 170, 136, 0.4);
     }
 
@@ -530,6 +576,7 @@ li a:hover {
         font-size: 16px;
         line-height: 20px;
         color: #2F2F2F;
+        padding-left: 15px;
     }
 
 
@@ -566,15 +613,12 @@ li a:hover {
 
     .headerIndex ul li a {
         color: #FDF9F7;
-            font-size: 16px;
-            padding: 7px 13px;
-            border-radius: 3px;
     }
 
     .headerIndex .fa-chevron-down {
         color: #FDF9F7;
         font-size: 10px;
-        margin-left: -5px;
+        margin-left: 5px;
 
     }
 
@@ -620,15 +664,32 @@ li a:hover {
 
     .headerIndex .enlace {
         position: absolute;
-        margin-top: 41px;
-        margin-left: 47px;
-       width: 173px;
-       height: 126px;
+       width: 95px;
+       height: 70px;
+       margin-left: 42px;
+       margin-top: -8px;
+        /* margin-top: 41px;
+        margin-left: 47px; */
+       /* width: 173px;
+       height: 126px; */
+    }
+
+    .enlace {
+        position: absolute;
+       width: 161px;
+       height: 161px;
+       margin-top: -10px;
+       margin-left: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 100%;
     }
 
     /* de prueba */
     main {
-        padding-top:208px;
+        padding-top:132px;
     }
 
 
