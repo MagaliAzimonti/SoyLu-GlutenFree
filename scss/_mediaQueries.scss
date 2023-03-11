@@ -11,6 +11,8 @@
 }
 
 @media (min-width: 1100px) {
+
+
     .heroImageIndex {
         background-image: url(../images/desktop/heroImageIndex.png);
         align-items: center;
@@ -48,6 +50,7 @@
         border-radius: 100px;
         margin-top: -128px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
     }
 
     .logoIndex {
@@ -197,9 +200,11 @@
     }
 
     .carousel1P {
-        font-weight: 400;
-        font-size: 16px;
-        text-align: start;
+        font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+color: #000000;
     }
 
     .fourthTitleIndex {
@@ -347,14 +352,15 @@
     }
 
     .divImagenesCarrousel div p {
-        margin-top: 12px;
         margin-left: 25px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 36px;
         color: #000000;
+        margin-left: -15px;
     }
+    
 
     .divImagenesCarrousel div img {
         margin: 10px;
@@ -374,8 +380,19 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
         margin-top: 50px;
+    }
+
+    .itemCarrouselArrows a {
+        width: 56px;
+        height: 56px;
+    }
+
+    .itemCarrouselArrowRight {
+        margin-right:20px;
+    }
+    .itemCarrouselArrowLeft {
+        margin-left:20px;
     }
 
     .itemCarrouselArrows>a:hover {
@@ -479,10 +496,22 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 20px;
         margin-top: 50px;
     }
 
+    .itemCarrouselArrowsTwoLeft {
+        margin-left: 20px;
+    }
+    .itemCarrouselArrowsTwoRight {
+        margin-right: 20px;
+    }
+
+    .itemCarrouselArrowsTwo a {
+        width: 56px;
+        height: 56px;
+    }
+
+    
     .itemCarrouselArrowsTwo>a:hover {
         cursor: pointer;
     }
@@ -681,6 +710,7 @@
         z-index: 20;
         align-items: center;
         justify-items: center;
+        width: 429px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0fr 0fr 0fr 0fr;
         gap: 0px 0px;
@@ -709,12 +739,12 @@
         font-size: 16px;
         line-height: 24px;
         color: #2F2F2F;
-        width: 429px;
+        padding-left: 15px;
         grid-area: secondParagraphAbout;
     }
 
     .iconQualityDesk {
-        margin-right: 60px;
+        margin-right: 30px;
         margin-top: 55px;
         height: 63px;
         width: 63px;
@@ -722,7 +752,7 @@
     }
 
     .iconGlutenFreeDesk {
-        margin-left: -40px;
+        margin-left: -10px;
         margin-top: 55px;
         height: 63px;
         width: 63px;
@@ -731,7 +761,7 @@
 
     .h3QualityDesk {
         margin-top: 9px;
-        padding-right: 60px;
+        padding-right: 30px;
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
@@ -742,7 +772,7 @@
 
     .h3lutenFreeDesk {
         margin-top: 9px;
-        margin-left: -40px;
+        margin-left: -10px;
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
@@ -1930,12 +1960,12 @@
         transform: rotate(-18.18deg);
         background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
         filter: blur(20px);
-        margin-left: -100px;
+        margin-left: -150px;
         background-size: cover;
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -100px;
+        margin-top: -200px;
     }
 
     .firstSectionLunch {
@@ -2085,7 +2115,7 @@
         transform: rotate(-18.18deg);
         background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
         filter: blur(20px);
-        margin-left: -100px;
+        margin-left: -150px;
         background-size: cover;
         background-position: center;
         width: 300%;
@@ -2279,6 +2309,10 @@
 /* Media queries -> Estilos order */
 @media (min-width: 1100px) {
 
+    .brOrderMobile {
+        display: none;
+    }
+
     .circleLeft {
         display: none;
     }
@@ -2388,22 +2422,22 @@
 
     .iconsTakeAway {
         display: grid;
-        justify-items: center;
         margin-top: 92px;
-        grid-template-columns: 0.7fr 1fr;
-        grid-template-rows: 0fr 1fr 1fr 1fr 1fr;
-        gap: 62px 0px;
+        align-items: center;
+        margin-bottom: 144px;
+        grid-template-columns: 0fr 0fr;
+        grid-template-rows: 0fr 0fr 0fr;
+        gap: 64px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            ". ."
             "iconLocation locationPDiv"
             "iconTimer timerPDiv"
-            "iconDelivery deliveryPDiv"
-            ". .";
+            "iconDelivery deliveryPDiv";
     }
 
     .iconLocationD {
         z-index: 20;
+        margin-right: 37px;
         grid-area: iconLocation;
     }
 
@@ -2424,6 +2458,7 @@
 
     .iconTimerD {
         z-index: 20;
+        margin-right: 37px;
         grid-area: iconTimer;
     }
 
@@ -2444,6 +2479,7 @@
 
     .iconDeliveryD {
         z-index: 30;
+        margin-right: 37px;
         grid-area: iconDelivery;
     }
 

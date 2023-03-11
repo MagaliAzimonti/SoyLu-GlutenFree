@@ -100,7 +100,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 48px;
-        margin-bottom: 56px;
+        margin-bottom: 48px;
     }
 
     .btnBakeryDiv .btnBakery {
@@ -143,7 +143,6 @@
 
     .titleTortas {
         z-index: 10;
-        margin-top: 32px;
         background-image: url(../images/mobile/bakery_image_two.png);
         width: 90%;
         border-radius: 10px;
@@ -205,19 +204,22 @@
         padding: 0 20px;
     }
 
-    .btnBakeryTwo {
-        display: none
+    .btnBakeryTwoDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+        margin-bottom: 41px;
     }
 
-    /* .btnBakeryTwo {
+
+    .btnBakeryTwo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 51px;
-        margin-bottom: 50px;
         position: relative;
         width: 143px;
         height: 44px;
@@ -236,7 +238,7 @@
         text-align: center;
         letter-spacing: 0.1px;
         color: #050505;
-    } */
+    }
 
     .imgBakeryDkTwo {
         display: none;

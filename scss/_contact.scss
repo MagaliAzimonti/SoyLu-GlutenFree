@@ -1,4 +1,7 @@
 /* ESTILOS CONTACT */
+
+
+
 @media (max-width:1199px) {
 
     .titleContact {
@@ -47,11 +50,10 @@
     }
 
      .divContactIformation {
-        margin:0;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 8px 8px;
+        padding: 10px;
         background: rgba(255, 170, 136, 0.6);        
         height: 64px;
         position: relative;
@@ -242,3 +244,14 @@ input:focus, input[type]:focus {
     color: #050505;
 }
 
+@media (max-width:306px) {
+    .divContactIformation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        background: rgba(255, 170, 136, 0.6);        
+        height: 94px;
+        position: relative;
+    }
+}

@@ -91,13 +91,11 @@
         color: #FFFFFF;
     }
 
-    .firstSectionLunch .listOne {
-        margin-top: 48px;
-    }
-
+    
     .firstSectionLunch .listOne div {
         width: 98%;
         padding: 0 10px;
+        margin-top: 48px;
     }
 
     .firstSectionLunch .listOne div h3 {
@@ -109,7 +107,6 @@
         color: #000000;
         line-height: 24px;
         text-align: center;
-        padding-bottom: 10px;
     }
 
     .firstSectionLunch .listOne div p {
@@ -119,7 +116,6 @@
         line-height: 18px;
         text-align: center;
         color: #000000;
-        margin-bottom: 50px;
         text-align: center;
     }
 
@@ -129,6 +125,7 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 50px;
+        margin-top: 48px;
     }
 
     .btnLunch {
@@ -170,7 +167,6 @@
 
     .titleWraps {
         z-index: 10;
-        margin-top: 32px;
         background-image: url(../images/mobile/lunch_image_two.png);
         width: 90%;
         border-radius: 10px;
@@ -204,8 +200,7 @@
     }
 
     .secondSectionLunch .listTwo {
-        margin-top: 144px;
-        margin-bottom: 146px;
+        margin-top: 51.5px;
     }
 
     .secondSectionLunch .listTwo div {
@@ -221,7 +216,6 @@
         text-align: center;
         color: #000000;
         line-height: 24px;
-        padding-bottom: 10px;
     }
 
     .secondSectionLunch .listTwo div p {
@@ -234,7 +228,9 @@
         padding: 0 10px;
     }
 
-    .btnLunchTwo {
+    .btnLunchTwo {display: none;}
+
+    /* .btnLunchTwo {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -260,7 +256,7 @@
         text-align: center;
         letter-spacing: 0.1px;
         color: #050505;
-    }
+    } */
 
     .thirdSectionLunch {
         background: #FDF9F7;
@@ -275,7 +271,7 @@
 
     .titleEnsaladas {
         z-index: 10;
-        margin-top: 32px;
+        margin-top: 8px;
         background-image: url(../images/mobile/lunch_image_three.png);
         width: 90%;
         border-radius: 10px;
@@ -286,7 +282,6 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 48px;
     }
 
     .rectangleLunchesThree {
@@ -299,6 +294,7 @@
         width: 300%;
         background-position: center;
         margin-top: -140px;
+        margin-bottom: 10px;
     }
 
     .titleEnsaladas h2 {
@@ -310,11 +306,11 @@
     }
 
     .thirdSectionLunch .listThree  {
-        margin-top: 26px;
+        margin-top: 58.9px;
     }
 
     .thirdSectionLunch .listThree div {
-        padding-bottom: 26px;
+        margin-bottom: 32px;
     }
 
     .thirdSectionLunch .listThree div h3 {
@@ -325,7 +321,6 @@
         text-align: center;
         color: #000000;
         line-height: 24px;
-        padding-bottom: 5px;
     }
 
     .thirdSectionLunch .listThree div p {
@@ -343,6 +338,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: 48px;
+        margin-bottom: 48px;
     }
     .btnLunchThree {
         display: flex;
@@ -351,8 +348,7 @@
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 20px;
-        margin-bottom: 50px;
+        
         position: relative;
         width: 143px;
         height: 44px;

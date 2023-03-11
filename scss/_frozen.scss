@@ -56,7 +56,6 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 32px;
     }
 
 
@@ -70,7 +69,7 @@
         position: relative;
         width: 300%;
         margin-top: -150px;
-        margin-bottom: 20px;
+        margin-bottom: 32px;
     }
 
 
@@ -142,7 +141,6 @@
 
     .titleRebozados {
         z-index: 10;
-        margin-top: 32px;
         background-image: url(../images/mobile/frozen_image_two.png);
         width: 90%;
         border-radius: 10px;
@@ -153,7 +151,6 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 32px;
     }
 
     .titleRebozados p {
@@ -173,7 +170,7 @@
         background-position: center;
         width: 300%;
         background-position: center;
-        margin-top: -135px;
+        margin-top: -105px;
     }
 
 
@@ -202,8 +199,8 @@
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 51px;
-        margin-bottom: 56px;
+        margin-top: 48px;
+        margin-bottom: 48px;
         position: relative;
         width: 143px;
         height: 44px;
@@ -237,7 +234,6 @@
 
     .titlePrepizza {
         z-index: 10;
-        margin-top: 32px;
         background-image: url(../images/frozen_three.png);
         width: 90%;
         border-radius: 10px;
@@ -248,7 +244,7 @@
         justify-content: center;
         display: flex;
         align-items: center;
-        margin-bottom: 32px;
+        margin-top: 32px;
     }
 
     .titlePrepizza p {
@@ -269,6 +265,7 @@
         width: 300%;
         background-position: center;
         margin-top: -130px;
+        margin-bottom: 10px;
     }
 
 
@@ -290,6 +287,11 @@
         color: #000000;
     }
 
+    .btnFrozenThreeDiv {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
     .btnFrozenThree {
         display: flex;
         flex-direction: column;
@@ -297,8 +299,6 @@
         align-items: center;
         padding: 0px;
         gap: 8px;
-        margin-top: 97px;
-        margin-bottom: 56px;
         position: relative;
         width: 143px;
         height: 44px;
