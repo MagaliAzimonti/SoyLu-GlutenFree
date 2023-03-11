@@ -15,6 +15,17 @@ body {
 a {
   text-decoration: none; }
 
+body::-webkit-scrollbar {
+  width: 15px; }
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #eeb8a1; }
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #F2A654;
+  border-radius: 50px; }
+
 /* ESTILOS HEADER */
 .enlace {
   position: absolute;
@@ -698,6 +709,14 @@ li a:hover {
   flex-wrap: nowrap;
   overflow: scroll;
   padding-bottom: 30px; }
+
+.sliderTwo::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #eeb8a1; }
+
+.sliderTwo::-webkit-scrollbar-thumb:hover {
+  background: #F2A654;
+  border-radius: 50px; }
 
 .elementoTwo {
   background-image: url(../images/Vector_carrusel2.png);

@@ -16,6 +16,19 @@ a {
     text-decoration: none;
 }
 
+body::-webkit-scrollbar{
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background-color: #eeb8a1;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: #F2A654;
+    border-radius: 50px;
+}
+
 
 
 /* ESTILOS HEADER */
