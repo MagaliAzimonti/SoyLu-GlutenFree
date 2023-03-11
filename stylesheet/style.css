@@ -218,8 +218,9 @@ li a:hover {
     line-height: 28px;
     letter-spacing: -0.011em;
     color: #2F2F2F;
-    padding-right: 14px;
-    display: inline-block; }
+    padding-right: 2%;
+    /* padding-right: 14px;
+ */ }
   nav ul li a {
     color: #2F2F2F; }
   li a.active,
@@ -351,6 +352,7 @@ li a:hover {
     z-index: 999;
     box-shadow: 0 0 15px #ebe4e0;
     display: flex;
+    flex-direction: row;
     align-items: center; }
   .enlace {
     position: absolute;
@@ -375,7 +377,7 @@ li a:hover {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: end; }
+    justify-content: flex-end; }
   nav ul li {
     font-style: normal;
     font-weight: 500;
@@ -383,7 +385,9 @@ li a:hover {
     line-height: 28px;
     letter-spacing: -0.011em;
     color: #2F2F2F;
-    padding-right: 34px; }
+    padding-right: 2.5%;
+    /* padding-right: 34px;
+ */ }
   nav ul li a {
     color: #2F2F2F;
     /* padding: 7px 13px; */
@@ -708,25 +712,18 @@ li a:hover {
   display: flex;
   flex-wrap: nowrap;
   overflow: scroll;
-  padding-bottom: 30px; }
-
-.sliderTwo::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  background-color: #eeb8a1; }
-
-.sliderTwo::-webkit-scrollbar-thumb:hover {
-  background: #F2A654;
-  border-radius: 50px; }
+  padding-bottom: 30px;
+  margin-left: 5px; }
 
 .elementoTwo {
-  background-image: url(../images/Vector_carrusel2.png);
+  background-image: url(../images/mobile/index_carrousel_two_bg.png);
   flex: 1 0 auto;
-  margin: 0 10px;
-  width: 171px;
-  height: 192px;
-  box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-  -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-  -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+  margin: 0 5px;
+  width: 179px;
+  height: 200px;
+  /* box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82); */
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -793,7 +790,7 @@ li a:hover {
     margin-top: 48px; }
   .secondSectionindex .circleIndex {
     margin-top: 90px;
-    background-image: url(../images/eclipse_orange_one.png);
+    background-image: url(../images/mobile/ellipse_orange_one.png);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1143,7 +1140,7 @@ main {
     line-height: 21px;
     color: #000000; }
   .secondSectionAbout .medialunaAbout {
-    background-image: url(../images/eclipse_orange_one.png);
+    background-image: url(../images/mobile/ellipse_orange_one.png);
     width: 100%;
     height: 50px;
     margin-top: 18px;
@@ -1246,7 +1243,7 @@ main {
     color: #49454F;
     display: flex;
     align-items: center; }
-  .eclipseContact {
+  .ellipseContact {
     display: none; }
   .ImgSamwichcontac {
     display: none; }
@@ -1450,7 +1447,7 @@ input:focus, input[type]:focus {
     line-height: 24px;
     text-align: center; }
   .mainHow .eclipseOrder {
-    background-image: url(../images/eclipse_orange_one.png);
+    background-image: url(../images/mobile/ellipse_orange_one.png);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1554,7 +1551,7 @@ input:focus, input[type]:focus {
   .circleLeft {
     grid-area: circleLeft; }
   .imagesOrder .imageWhatsapp {
-    background-image: url(../images/whatsapp_img.png);
+    background-image: url(../images/mobile/whatsapp_img.png);
     width: 66px;
     height: 67px;
     background-position: center;
@@ -1562,7 +1559,7 @@ input:focus, input[type]:focus {
     margin-top: 83px;
     grid-area: imageWhatsapp; }
   .imagesOrder .imagePedidosya {
-    background-image: url(../images/pedidos_ya_img.png);
+    background-image: url(../images/mobile/pedidos_ya_img.png);
     width: 66px;
     height: 67px;
     background-position: center;
@@ -1570,7 +1567,7 @@ input:focus, input[type]:focus {
     margin-top: 104px;
     grid-area: imagePedidosya; }
   .imagesOrder .imageRappi {
-    background-image: url(../images/rappi_img.png);
+    background-image: url(../images/mobile/rappi_img.png);
     width: 66px;
     height: 67px;
     background-position: center;
@@ -2124,7 +2121,7 @@ input:focus, input[type]:focus {
     overflow: hidden; }
   .titlePrepizza {
     z-index: 10;
-    background-image: url(../images/frozen_three.png);
+    background-image: url(../images/mobile/frozen_three.png);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2806,17 +2803,17 @@ input:focus, input[type]:focus {
   .secondSectionindex .textSecondIndex p {
     margin: 0px; }
   .secondSectionindex .circleIndex {
-    background-image: url(../images/eclipseDeskIndex.png);
+    background-image: url(../images/desktop/index_ellipse_desk.png);
     height: 220px;
     width: 100%;
     margin-top: -15px; }
   .secondSectionindex .iconGlutenFreeIndex {
-    background-image: url(../images/glutenFreeIconDesk-2.svg);
+    background-image: url(../images/desktop/glutenFreeIconDesk-2.svg);
     width: 100px;
     height: 100px;
     margin-left: 350px; }
   .secondSectionindex .iconCalidadIndex {
-    background-image: url(../images/qualityIndexDesk.svg);
+    background-image: url(../images/desktop/qualityIndexDesk.svg);
     width: 92px;
     height: 92px;
     margin-right: 350px; }
@@ -2902,19 +2899,19 @@ input:focus, input[type]:focus {
     margin-top: 92px;
     margin-bottom: 144px; }
   .iconFacebook {
-    background-image: url(../images/iconFbIndexDesk.png);
+    background-image: url(../images/desktop/iconFbIndexDesk.png);
     width: 60px;
     height: 60px;
     background-position: center;
     background-repeat: no-repeat; }
   .iconInstagram {
-    background-image: url(../images/iconIgIndexDesk.png);
+    background-image: url(../images/desktop/iconIgIndexDesk.png);
     width: 60px;
     height: 60px;
     background-position: center;
     background-repeat: no-repeat; }
   .iconWhatsapp {
-    background-image: url(../images/iconIndexWppDesk.png);
+    background-image: url(../images/desktop/iconIndexWppDesk.png);
     width: 60px;
     height: 60px;
     background-position: center;
@@ -3050,15 +3047,13 @@ input:focus, input[type]:focus {
   .divImagenesCarrouselTwo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-left: 20px;
-    margin-right: 20px; }
+    justify-content: center; }
   .divImagenesCarrouselTwo img {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.25);
     height: 305px;
     width: 240px;
-    margin: 15px;
-    border-radius: 15px; }
+    border-radius: 15px;
+    margin: 15px; }
   .itemCarrouselArrowsTwo {
     position: absolute;
     top: 0;
@@ -3574,7 +3569,7 @@ input:focus, input[type]:focus {
     display: none; }
   .firstSectionFavs .titleFavs {
     z-index: 10;
-    background-image: url(../images/heroImageFavs.png);
+    background-image: url(../images/desktop/heroImageFavs.png);
     width: 100%;
     height: 312px;
     background-position: center;
@@ -4451,19 +4446,19 @@ input:focus, input[type]:focus {
     text-align: center;
     color: #2F2F2F; }
   .imagesOrder .imageWhatsapp {
-    background-image: url(../images/imgWhatsappDesk.svg);
+    background-image: url(../images/desktop/imgWhatsappDesk.svg);
     width: 84px;
     height: 84px;
     background-position: center;
     background-repeat: no-repeat; }
   .imagesOrder .imagePedidosya {
-    background-image: url(../images/imgPedidosYaDesk.png);
+    background-image: url(../images/desktop/imgPedidosYaDesk.png);
     width: 290px;
     height: 65px;
     background-position: center;
     background-repeat: no-repeat; }
   .imagesOrder .imageRappi {
-    background-image: url(../images/ImgRappiDesk.png);
+    background-image: url(../images/desktop/ImgRappiDesk.png);
     width: 174px;
     height: 72px;
     background-position: center;
@@ -4612,7 +4607,7 @@ input:focus, input[type]:focus {
     padding-top: 15px;
     width: 380px; }
   .circleOrderDesk {
-    background-image: url(../images/eclipseOrderDesk.png);
+    background-image: url(../images/desktop/order_ellipse_desk.png);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -4877,7 +4872,7 @@ input:focus, input[type]:focus {
     grid-area: formularioContact; }
   .imgContactRight {
     grid-area: imgContactRight; }
-  .eclipseContact {
+  .ellipseContact {
     position: absolute;
     margin-left: -100px;
     margin-top: -150px; }

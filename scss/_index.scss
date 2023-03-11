@@ -235,17 +235,18 @@
     flex-wrap: nowrap;
     overflow: scroll;
     padding-bottom: 30px;
+    margin-left: 5px;
 }
 
 .elementoTwo {
-    background-image: url(../images/Vector_carrusel2.png);
+    background-image: url(../images/mobile/index_carrousel_two_bg.png);
     flex: 1 0 auto;
-    margin: 0 10px;
-    width: 171px;
-    height: 192px;
-    box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    margin: 0 5px;
+    width: 179px;
+    height: 200px;
+    /* box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
     -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
+    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82); */
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -338,7 +339,7 @@
 
     .secondSectionindex .circleIndex {
         margin-top: 90px;
-        background-image: url(../images/eclipse_orange_one.png);
+        background-image: url(../images/mobile/ellipse_orange_one.png);
         display: flex;
         flex-direction: column;
         width: 100%;
