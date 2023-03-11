@@ -942,6 +942,13 @@ color: #000000;
     }
 }
 
+
+
+@media (max-width: 1100px) and (min-width: 900px){
+    .firstSectionAbout h1 {
+        margin-top: 32px;
+    }
+}
 /* Media queries -> Estilos how */
 @media (min-width: 900px) {
     .howMobileIcons {
@@ -1095,6 +1102,10 @@ color: #000000;
         width: 274px;
         height: 278px;
     }
+
+    .mainHow .mainComoLoHacemostitle {
+        margin-top: 32px;
+    }
     
 }
 
@@ -1245,6 +1256,10 @@ color: #000000;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .mainProduct .productMainH1Desktop {   
+        margin-top: 32px;
     }
 }
 
@@ -2638,6 +2653,14 @@ color: #000000;
     }
 }
 
+@media (max-width:1100px) and (min-width: 900px)  {
+    .firstSectionOrder h1 {
+        margin-top: 32px;
+    }
+}
+
+
+
 /* Media queries -> Estilos contact */
 @media screen and (min-width:1200px) {
     .divContactIformation {
@@ -2982,4 +3005,31 @@ margin-right: 10px;
         display: none;
     }
 
+}
+
+@media (max-width:1200px) and (min-width: 900px) {
+    .mainContact .titleContact h1 {
+        width: 100%;
+        padding: 0 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 36px;
+        color: #2F2F2F;
+        margin-bottom: 25px;
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .mainContact .titleContact p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #000000;
+        width: 100%;
+        padding: 0 10px;
+        margin-top: -5px;
+    }
 }

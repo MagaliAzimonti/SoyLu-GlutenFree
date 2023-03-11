@@ -3394,6 +3394,10 @@ input:focus, input[type]:focus {
   .medialunaAbout {
     display: none; } }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+  .firstSectionAbout h1 {
+    margin-top: 32px; } }
+
 /* Media queries -> Estilos how */
 @media (min-width: 900px) {
   .howMobileIcons {
@@ -3509,7 +3513,9 @@ input:focus, input[type]:focus {
   .textoHow2Div {
     padding: 70px 20px;
     width: 274px;
-    height: 278px; } }
+    height: 278px; }
+  .mainHow .mainComoLoHacemostitle {
+    margin-top: 32px; } }
 
 /* Media queries -> Estilos products */
 @media (min-width: 900px) {
@@ -3617,7 +3623,9 @@ input:focus, input[type]:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .mainProduct .productMainH1Desktop {
+    margin-top: 32px; } }
 
 /* Media queries -> Estilos favs */
 @media (min-width: 1100px) {
@@ -4675,6 +4683,10 @@ input:focus, input[type]:focus {
     padding-bottom: 300px;
     bottom: 0; } }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+  .firstSectionOrder h1 {
+    margin-top: 32px; } }
+
 /* Media queries -> Estilos contact */
 @media screen and (min-width: 1200px) {
   .divContactIformation {
@@ -4952,3 +4964,26 @@ input:focus, input[type]:focus {
     } */
   .mainContact legend {
     display: none; } }
+
+@media (max-width: 1200px) and (min-width: 900px) {
+  .mainContact .titleContact h1 {
+    width: 100%;
+    padding: 0 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    color: #2F2F2F;
+    margin-bottom: 25px;
+    margin-top: 12px;
+    text-align: center; }
+  .mainContact .titleContact p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    padding: 0 10px;
+    margin-top: -5px; } }
