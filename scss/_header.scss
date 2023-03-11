@@ -49,11 +49,7 @@ nav ul {
     margin-right: 20px;
 }
 
-nav ul li {
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-}
+
 
 nav ul li a {
     color: black;
@@ -78,7 +74,7 @@ li a:hover {
 /* MediaQueriesHeader */
 
 
-@media (max-width: 1049px) {
+@media (max-width: 899px) {
 
     nav .fa-chevron-down {
         display: none;
@@ -149,7 +145,9 @@ li a:hover {
     }
 
     nav ul li {
-        margin: -13px;
+        display: inline-block;
+        line-height: 80px;
+        margin: -13px 5px;
         margin-left: -15px;
 
     }
@@ -255,7 +253,7 @@ li a:hover {
 }
  */
 
-@media (max-width:1439px) and (min-width: 1050px) {
+@media (max-width:1439px) and (min-width: 900px) {
     nav {
         height: 132px;
         width: 100%;
@@ -305,7 +303,7 @@ font-size: 16px;
 line-height: 28px;
 letter-spacing: -0.011em;
 color: #2F2F2F;
-padding-right: 2%;
+padding-right: 1.5%;
 /* padding-right: 14px;
  */
     }
@@ -480,6 +478,14 @@ padding-right: 2%;
     }
 
 }
+
+@media (max-width: 1439px) and (min-width: 1100px){
+    nav ul li {
+    font-size: 16px;
+    padding-right: 2.5%;
+    }
+}
+
 
 
 @media (min-width: 1440px) {

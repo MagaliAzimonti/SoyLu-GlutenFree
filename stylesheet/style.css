@@ -38,11 +38,6 @@ nav ul {
   float: right;
   margin-right: 20px; }
 
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px; }
-
 nav ul li a {
   color: black; }
 
@@ -60,7 +55,7 @@ li a:hover {
   display: none; }
 
 /* MediaQueriesHeader */
-@media (max-width: 1049px) {
+@media (max-width: 899px) {
   nav .fa-chevron-down {
     display: none; }
   main {
@@ -110,7 +105,9 @@ li a:hover {
     flex-direction: column;
     justify-content: center; }
   nav ul li {
-    margin: -13px;
+    display: inline-block;
+    line-height: 80px;
+    margin: -13px 5px;
     margin-left: -15px; }
   nav ul li a {
     font-style: normal;
@@ -177,7 +174,7 @@ li a:hover {
     }
 }
  */
-@media (max-width: 1439px) and (min-width: 1050px) {
+@media (max-width: 1439px) and (min-width: 900px) {
   nav {
     height: 132px;
     width: 100%;
@@ -218,7 +215,7 @@ li a:hover {
     line-height: 28px;
     letter-spacing: -0.011em;
     color: #2F2F2F;
-    padding-right: 2%;
+    padding-right: 1.5%;
     /* padding-right: 14px;
  */ }
   nav ul li a {
@@ -341,6 +338,11 @@ li a:hover {
     height: 68px; }
   main {
     padding-top: 132px; } }
+
+@media (max-width: 1439px) and (min-width: 1100px) {
+  nav ul li {
+    font-size: 16px;
+    padding-right: 2.5%; } }
 
 @media (min-width: 1440px) {
   nav {
@@ -774,14 +776,14 @@ li a:hover {
     background-position: center;
     margin-bottom: -270px; } }
 
-@media (max-width: 1099px) and (min-width: 451px) {
+@media (max-width: 899px) and (min-width: 451px) {
   .rectangleCarouselOne {
     display: none; }
   .rectangleCarouselTwo {
     display: none; } }
 
 /* MediasQueriesCarouselIndex */
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .carrousel {
     display: none; }
   .carrouselTwo {
@@ -1002,7 +1004,7 @@ main {
   flex-direction: row;
   text-align: center; }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .firstSectionAbout h1 {
     display: none; }
   .heroImageAbout {
@@ -1377,7 +1379,7 @@ input:focus, input[type]:focus {
   .mainHow .eclipseOrder {
     background-position: center; } }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .howDesktopIcons {
     display: none; }
   .mainHow {
@@ -1504,7 +1506,7 @@ input:focus, input[type]:focus {
   text-align: center;
   overflow: hidden; }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   /* .firstSectionOrder {
         align-items: center;
         justify-content: center;
@@ -1742,7 +1744,7 @@ input:focus, input[type]:focus {
   font-style: normal; }
 
 /* mediaQueriesProducts */
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .mainProduct .gridProds {
     padding-top: 32px;
     display: flex;
@@ -2673,7 +2675,7 @@ input:focus, input[type]:focus {
     color: #050505; } }
 
 /* Footer de How y About --> versión desktop */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .footerAbout {
     height: 81px;
     width: 100%;
@@ -2713,13 +2715,7 @@ input:focus, input[type]:focus {
 
 /* MEDIA QUERIES */
 /* Media queries -> Estilos index */
-@media (min-width: 1050px) {
-  .heroImageIndex {
-    background-image: url(../images/desktop/heroImageIndex.png);
-    align-items: center;
-    height: 924px; } }
-
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .heroImageIndex {
     background-image: url(../images/desktop/heroImageIndex.png);
     align-items: center;
@@ -3139,8 +3135,48 @@ input:focus, input[type]:focus {
     padding: 20px;
     margin-top: 50px; } }
 
+@media (max-width: 1050px) and (min-width: 900px) {
+  .heroImageIndex {
+    background-image: url(../images/desktop/heroImageIndex.png);
+    align-items: center;
+    height: 924px; } }
+
+@media (max-width: 1100px) and (min-width: 900px) {
+  .divImagenesCarrousel div img {
+    margin: 8px;
+    width: 280px;
+    height: 244px; }
+  .divImagenesCarrouselTwo img {
+    height: 250px;
+    width: 190px;
+    margin: 15px; }
+  .secondSectionindex .textGlutenFreeIndex {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F2F2F;
+    margin-left: 250px;
+    align-self: self-start; }
+  .secondSectionindex .textCalidadIndex {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F2F2F;
+    margin-right: 250px;
+    align-self: self-start; }
+  .secondSectionindex .iconGlutenFreeIndex {
+    margin-left: 250px; }
+  .secondSectionindex .iconCalidadIndex {
+    margin-right: 250px; }
+  .secondSectionindex .circleIndex {
+    background-position: center; } }
+
 /* Media queries -> Estilos about */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .firstSectionAbout {
     overflow-x: hidden; }
   .rectangleAboutOne {
@@ -3359,7 +3395,7 @@ input:focus, input[type]:focus {
     display: none; } }
 
 /* Media queries -> Estilos how */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .howMobileIcons {
     display: none; }
   .mainHow {
@@ -3461,8 +3497,22 @@ input:focus, input[type]:focus {
     background-position: center;
     margin-top: -330px; } }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+  .textosDehowDiv {
+    padding: 70px 20px;
+    width: 274px;
+    height: 278px; }
+  .textoDeHow1Div {
+    padding: 40px 20px;
+    width: 274px;
+    height: 278px; }
+  .textoHow2Div {
+    padding: 70px 20px;
+    width: 274px;
+    height: 278px; } }
+
 /* Media queries -> Estilos products */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .rectangleProdsOne {
     height: 266.1px;
     position: absolute;
@@ -3559,6 +3609,15 @@ input:focus, input[type]:focus {
     margin-right: 52px; }
   .mainProduct .productMainH1 {
     display: none; } }
+
+@media (max-width: 1100px) and (min-width: 900px) {
+  .mainProduct .prodsDiv {
+    height: 255px;
+    width: 413px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; } }
 
 /* Media queries -> Estilos favs */
 @media (min-width: 1100px) {
@@ -4426,7 +4485,7 @@ input:focus, input[type]:focus {
     width: 80%; } }
 
 /* Media queries -> Estilos order */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .brOrderMobile {
     display: none; }
   .circleLeft {

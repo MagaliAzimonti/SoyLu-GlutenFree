@@ -2,15 +2,8 @@
 
 /* Media queries -> Estilos index */
 
-@media (min-width: 1050px) {
-    .heroImageIndex {
-        background-image: url(../images/desktop/heroImageIndex.png);
-        align-items: center;
-        height: 924px;
-    }
-}
 
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
 
 
     .heroImageIndex {
@@ -592,8 +585,68 @@ color: #000000;
     }
 }
 
+@media (max-width: 1050px) and (min-width:900px) {
+    .heroImageIndex {
+        background-image: url(../images/desktop/heroImageIndex.png);
+        align-items: center;
+        height: 924px;
+    }
+}
+
+@media (max-width: 1100px) and (min-width:900px) {
+    .divImagenesCarrousel div img {
+        margin: 8px;
+        width: 280px;
+        height: 244px;
+
+    }
+
+    .divImagenesCarrouselTwo img {
+        height: 250px;
+        width: 190px;
+        margin: 15px;
+    }
+
+    .secondSectionindex .textGlutenFreeIndex {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #2F2F2F;
+        margin-left: 250px;
+        align-self: self-start;
+}
+
+.secondSectionindex .textCalidadIndex {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2F2F2F;
+    margin-right: 250px;
+    align-self: self-start;
+}
+
+.secondSectionindex .iconGlutenFreeIndex {
+    margin-left: 250px;
+}
+
+.secondSectionindex .iconCalidadIndex {
+    margin-right: 250px;
+}
+
+.secondSectionindex .circleIndex {
+    background-position: center;
+}
+
+}
+
+
+
 /* Media queries -> Estilos about */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
 
     .firstSectionAbout {
         overflow-x: hidden;
@@ -890,7 +943,7 @@ color: #000000;
 }
 
 /* Media queries -> Estilos how */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
     .howMobileIcons {
         display: none;
     }
@@ -1024,8 +1077,29 @@ color: #000000;
     }
 }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+    .textosDehowDiv {
+        padding: 70px 20px;
+        width: 274px;
+        height: 278px;
+    }
+
+    .textoDeHow1Div {
+        padding: 40px 20px;
+        width: 274px;
+        height: 278px;
+    }
+
+    .textoHow2Div {
+        padding: 70px 20px;
+        width: 274px;
+        height: 278px;
+    }
+    
+}
+
 /* Media queries -> Estilos products */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
     .rectangleProdsOne {
         height: 266.1px;
         position: absolute;
@@ -1161,6 +1235,19 @@ color: #000000;
         display: none;
     }
 }
+
+
+@media (max-width:1100px) and (min-width: 900px) {
+    .mainProduct .prodsDiv {
+        height: 255px;
+        width: 413px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 /* Media queries -> Estilos favs */
 @media (min-width:1100px) {
@@ -2304,7 +2391,7 @@ color: #000000;
 
 
 /* Media queries -> Estilos order */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
 
     .brOrderMobile {
         display: none;
