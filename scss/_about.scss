@@ -32,7 +32,8 @@ main {
         z-index: 10;
         background-image: url(../images/mobile/about_hero_image.png);
         height: 176px;
-        width: 90%;
+        background-size: cover;
+        width: 358px;
         border-radius: 10px;
         background-position: center;
         background-repeat: no-repeat;
@@ -138,8 +139,9 @@ main {
         z-index: 10;
         background-image: url(../images/mobile/about_hero_image_two.png);
         height: 160px;
-        width: 90%;
+        width: 358px;
         border-radius: 10px;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         justify-content: center;

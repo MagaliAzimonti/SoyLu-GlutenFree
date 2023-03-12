@@ -10,6 +10,7 @@
 }
 
 .mainProduct .prodsDiv {
+
     z-index: 10;
     background-position: center;
     background-size: cover;
@@ -98,29 +99,35 @@
         color: #FFFFFF;
     }
 
-    .mainProduct .prodOne {
-        margin-top: 32px;
-    }
-
     .footerProds {
         display: none;
     }
-
+    
     .mainProduct .prodOne {
-        background-image: url(../images/mobile/products_image_one.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_one.jpg);
+        background-position: center;
+        background-size: cover;
+        margin-top: 32px;
+        z-index: 10;
     }
 
     .mainProduct .prodTwo {
         z-index: 10;
-        background-image: url(../images/mobile/products_image_two.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_two.jpg);
+        background-position: center;
+        background-size: cover;
     }
 
     .mainProduct .prodThree {
-        background-image: url(../images/mobile/products_image_three.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_three.jpg);
+        background-position: center;
+        background-size: cover;
     }
 
     .mainProduct .prodFour {
-        background-image: url(../images/mobile/products_image_four.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_four.jpg);
+        background-position: center;
+        background-size: cover;
     }
 }
 

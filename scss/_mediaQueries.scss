@@ -1,7 +1,8 @@
 /* Estilos index Desktop */
 @media (min-width: 900px) {
     .heroImageIndex {
-        background-image: url(../images/desktop/heroImageIndex.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/desktop/heroImageIndex.jpg);
+        transform: rotate(0.06deg);
         align-items: center;
         height: 1024px;
     }
@@ -338,11 +339,42 @@
         margin-left: -15px;
     }
 
-    .divImagenesCarrousel div img {
+    .divImagenesCarrousel div .imgCarr {
         margin: 10px;
         width: 360px;
         height: 314px;
-        border-radius: 35px;
+        border-radius: 35px; 
+    }
+
+    .divImagenesCarrousel div .imgCarrOne {
+        background-image: url(../images/desktop/carousel_first_one.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .divImagenesCarrousel div .imgCarrTwo {
+        background-image: url(../images/desktop/carousel_first_two.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .divImagenesCarrousel div .imgCarrThree {
+        background-image: url(../images/desktop/carousel_first_three.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .divImagenesCarrousel div .imgCarrFour {
+        background-image: url(../images/desktop/carousel_first_four.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .divImagenesCarrousel div .imgCarrFive {
+        background-image: url(../images/desktop/carousel_first_five.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .divImagenesCarrousel div .imgCarrSix {
+        background-image: url(../images/desktop/carousel_first_six.jpg);
+        background-position: center;
+        background-size: cover;
     }
 
     .itemCarrouselArrows {
@@ -494,7 +526,7 @@
         height: 1024px;
     }
 
-    .divImagenesCarrousel div img {
+    .divImagenesCarrousel div .imgCarr {
         padding: 15px;
         width: 429px;
         height: 374px;
@@ -540,15 +572,25 @@
 
 @media (max-width: 1100px) and (min-width:900px) {
     .heroImageIndex {
-        background-image: url(../images/desktop/heroImageIndex.png);
         align-items: center;
         height: 924px;
+        background-position: center;
+        background-size: cover;
     }
 
-    .divImagenesCarrousel div img {
+    .divImagenesCarrousel div .imgCarr {
         margin: 8px;
         width: 280px;
         height: 244px;
+    }
+
+    .btnVerMasIndexDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        margin-bottom: 120px;
     }
 
     .divImagenesCarrouselTwo img {
@@ -638,14 +680,14 @@
 
     .heroImageAbout {
         z-index: 10;
-        background-image: url(../images/desktop/about_hero_image.png);
+        background-image: url(../images/desktop/about_hero_image.jpg);
         width: 80%;
         border-radius: 20px;
-        height: 441px;
-        background-position: center;
+        height: 546px;
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: 92px;
+        top:32px;
     }
 
     .firstSectionAbout .divParAbout {

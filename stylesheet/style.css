@@ -458,16 +458,6 @@ li a:hover {
     padding-top: 132px; } }
 
 /* Estilos index */
-.firstSectionIndex {
-  height: 100%; }
-
-.heroImageIndex {
-  background-image: url(../images/mobile/hero_image_index.png);
-  height: 844px;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden; }
-
 .firstSectionIndex main {
   display: flex;
   flex-direction: column;
@@ -593,9 +583,29 @@ li a:hover {
 .elemento {
   flex: 1 0 auto;
   margin: 0 10px;
-  width: 170px;
+  width: 171px;
   height: 160px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover; }
+
+.elementoUno {
+  background-image: url(../images/mobile/carousel_second_one.jpg); }
+
+.elementoDos {
+  background-image: url(../images/mobile/carousel_second_two.jpg); }
+
+.elementoTres {
+  background-image: url(../images/mobile/carousel_second_three.jpg); }
+
+.elementoCuatro {
+  background-image: url(../images/mobile/carousel_second_four.jpg); }
+
+.elementoCinco {
+  background-image: url(../images/mobile/carousel_second_five.jpg); }
+
+.elementoSeis {
+  background-image: url(../images/mobile/carousel_second_six.jpg); }
 
 .carousel1P {
   font-style: normal;
@@ -708,6 +718,15 @@ li a:hover {
     display: none; } }
 
 @media (max-width: 899px) {
+  .firstSectionIndex {
+    height: 844px; }
+  .heroImageIndex {
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/mobile/hero_image_index.jpg);
+    transform: rotate(0.06deg);
+    background-position: center;
+    background-size: cover; }
   .carrousel {
     display: none; }
   .carrouselTwo {
@@ -935,7 +954,8 @@ main {
     z-index: 10;
     background-image: url(../images/mobile/about_hero_image.png);
     height: 176px;
-    width: 90%;
+    background-size: cover;
+    width: 358px;
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
@@ -1015,8 +1035,9 @@ main {
     z-index: 10;
     background-image: url(../images/mobile/about_hero_image_two.png);
     height: 160px;
-    width: 90%;
+    width: 358px;
     border-radius: 10px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
@@ -1678,19 +1699,27 @@ input[type]:focus {
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF; }
-  .mainProduct .prodOne {
-    margin-top: 32px; }
   .footerProds {
     display: none; }
   .mainProduct .prodOne {
-    background-image: url(../images/mobile/products_image_one.png); }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_one.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 32px;
+    z-index: 10; }
   .mainProduct .prodTwo {
     z-index: 10;
-    background-image: url(../images/mobile/products_image_two.png); }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_two.jpg);
+    background-position: center;
+    background-size: cover; }
   .mainProduct .prodThree {
-    background-image: url(../images/mobile/products_image_three.png); }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_three.jpg);
+    background-position: center;
+    background-size: cover; }
   .mainProduct .prodFour {
-    background-image: url(../images/mobile/products_image_four.png); } }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_four.jpg);
+    background-position: center;
+    background-size: cover; } }
 
 @media (max-width: 345px) {
   .mainProduct .prodsDiv p {
@@ -2560,7 +2589,8 @@ input[type]:focus {
 /* Estilos index Desktop */
 @media (min-width: 900px) {
   .heroImageIndex {
-    background-image: url(../images/desktop/heroImageIndex.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/desktop/heroImageIndex.jpg);
+    transform: rotate(0.06deg);
     align-items: center;
     height: 1024px; }
   .firstTitleIndex {
@@ -2812,11 +2842,35 @@ input[type]:focus {
     line-height: 36px;
     color: #000000;
     margin-left: -15px; }
-  .divImagenesCarrousel div img {
+  .divImagenesCarrousel div .imgCarr {
     margin: 10px;
     width: 360px;
     height: 314px;
     border-radius: 35px; }
+  .divImagenesCarrousel div .imgCarrOne {
+    background-image: url(../images/desktop/carousel_first_one.jpg);
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarrTwo {
+    background-image: url(../images/desktop/carousel_first_two.jpg);
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarrThree {
+    background-image: url(../images/desktop/carousel_first_three.jpg);
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarrFour {
+    background-image: url(../images/desktop/carousel_first_four.jpg);
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarrFive {
+    background-image: url(../images/desktop/carousel_first_five.jpg);
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarrSix {
+    background-image: url(../images/desktop/carousel_first_six.jpg);
+    background-position: center;
+    background-size: cover; }
   .itemCarrouselArrows {
     position: absolute;
     top: 0;
@@ -2917,7 +2971,7 @@ input[type]:focus {
 @media (min-width: 1400px) {
   .heroImageIndex {
     height: 1024px; }
-  .divImagenesCarrousel div img {
+  .divImagenesCarrousel div .imgCarr {
     padding: 15px;
     width: 429px;
     height: 374px; }
@@ -2955,13 +3009,21 @@ input[type]:focus {
 
 @media (max-width: 1100px) and (min-width: 900px) {
   .heroImageIndex {
-    background-image: url(../images/desktop/heroImageIndex.png);
     align-items: center;
-    height: 924px; }
-  .divImagenesCarrousel div img {
+    height: 924px;
+    background-position: center;
+    background-size: cover; }
+  .divImagenesCarrousel div .imgCarr {
     margin: 8px;
     width: 280px;
     height: 244px; }
+  .btnVerMasIndexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    margin-bottom: 120px; }
   .divImagenesCarrouselTwo img {
     height: 250px;
     width: 190px;
@@ -3029,14 +3091,14 @@ input[type]:focus {
     margin-top: 92px; }
   .heroImageAbout {
     z-index: 10;
-    background-image: url(../images/desktop/about_hero_image.png);
+    background-image: url(../images/desktop/about_hero_image.jpg);
     width: 80%;
     border-radius: 20px;
-    height: 441px;
-    background-position: center;
+    height: 546px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 92px; }
+    margin-top: 92px;
+    top: 32px; }
   .firstSectionAbout .divParAbout {
     margin-top: 52px;
     display: flex;

@@ -1,15 +1,5 @@
 /* Estilos index */
-.firstSectionIndex {
-    height: 100%;
-}
 
-.heroImageIndex {
-    background-image: url(../images/mobile/hero_image_index.png);
-    height: 844px;
-    background-size: cover;
-    background-position: center center;
-    overflow: hidden;
-}
 
 .firstSectionIndex main {
     display: flex;
@@ -153,9 +143,30 @@
 .elemento {
     flex: 1 0 auto;
     margin: 0 10px;
-    width: 170px;
+    width: 171px;
     height: 160px;
     border-radius: 10px;
+    background-position: center;
+    background-size: cover; 
+}
+
+.elementoUno {
+    background-image: url(../images/mobile/carousel_second_one.jpg);  
+}
+.elementoDos {
+    background-image: url(../images/mobile/carousel_second_two.jpg);  
+}
+.elementoTres {
+    background-image: url(../images/mobile/carousel_second_three.jpg);  
+}
+.elementoCuatro {
+    background-image: url(../images/mobile/carousel_second_four.jpg);  
+}
+.elementoCinco {
+    background-image: url(../images/mobile/carousel_second_five.jpg);  
+}
+.elementoSeis {
+    background-image: url(../images/mobile/carousel_second_six.jpg);  
 }
 
 .carousel1P {
@@ -286,6 +297,19 @@
 }
 
 @media (max-width:899px) {
+    .firstSectionIndex {
+        height: 844px;
+    }
+    
+    .heroImageIndex {
+        height: 100%;
+        overflow: hidden;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/mobile/hero_image_index.jpg);
+        transform: rotate(0.06deg);
+        background-position: center;
+        background-size: cover;
+    }
+    
     .carrousel {
         display: none;
     }
