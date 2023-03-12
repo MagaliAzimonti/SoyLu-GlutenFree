@@ -1,10 +1,6 @@
-
-/* ESTILOS INDEX */
-
+/* Estilos index */
 .firstSectionIndex {
     height: 100%;
-
-   
 }
 
 .heroImageIndex {
@@ -34,7 +30,7 @@
     padding-top: 345px;
 }
 
-@media (max-width:316px){
+@media (max-width:316px) {
     .btnOrderIndexDiv {
         display: flex;
         flex-direction: column;
@@ -64,7 +60,6 @@
     text-align: center;
     letter-spacing: 0.1px;
     color: #050505;
-
 }
 
 .secondSectionindex {
@@ -89,18 +84,13 @@
     grid-area: second-title;
 }
 
-
-
 .secondSectionindex .textGlutenFreeIndex {
     grid-area: text-gluten;
 }
 
-
-
 .secondSectionindex .textCalidadIndex {
     grid-area: text-calidad;
 }
-
 
 .secondSectionindex .textSecondIndex {
     width: 95%;
@@ -128,36 +118,27 @@
     grid-area: circle-area;
 }
 
-
 .thirdSectionIndex {
- 
     position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-    /* align-items: center; */
-}
-.fourthSectionIndex {
- 
-    position: relative;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   overflow: hidden;
-    /* align-items: center; */
 }
 
-/* Carrusel 1 */
+.fourthSectionIndex {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .indexCarouselLine {
     display: flex;
     flex-direction: column;
-    /*   align-items: center; */
     justify-content: center;
-
-
 }
 
 .slider {
@@ -168,8 +149,6 @@
     overflow: scroll;
     margin-left: 5px;
 }
-
-
 
 .elemento {
     flex: 1 0 auto;
@@ -188,8 +167,6 @@
     text-align: center;
     margin-top: 8px;
 }
-
-
 
 .btnVerMasIndex {
     display: flex;
@@ -217,13 +194,9 @@
     color: #050505;
 }
 
-/* Carrusel 2 */
-
-
 .indexCarouselLineTwo {
     display: flex;
     flex-direction: column;
-    /*   align-items: center; */
     justify-content: center;
     margin-bottom: 20px;
 }
@@ -244,9 +217,6 @@
     margin: 0 5px;
     width: 179px;
     height: 200px;
-    /* box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-    -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82); */
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -254,8 +224,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-
-
 }
 
 .elementoTwo p {
@@ -279,7 +247,6 @@
     grid-area: icon-calidad;
 }
 
-
 @media (max-width: 450px) {
     .rectangleCarouselOne {
         height: 112px;
@@ -293,7 +260,7 @@
         background-position: center;
         margin-top: -200px;
     }
-    
+
     .rectangleCarouselTwo {
         height: 112px;
         position: absolute;
@@ -307,22 +274,16 @@
         margin-bottom: -270px;
     }
 }
+
 @media (max-width:899px) and (min-width: 451px) {
     .rectangleCarouselOne {
         display: none;
     }
-    
+
     .rectangleCarouselTwo {
         display: none;
     }
 }
-
-
-
-
-
-
-/* MediasQueriesCarouselIndex */
 
 @media (max-width:899px) {
     .carrousel {
@@ -368,18 +329,16 @@
         margin-bottom: 46px;
     }
 
-    
-    
     .secondSectionindex .circleIndex .btnMoreIndex a {
         font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.1px;
-color: #050505;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #050505;
     }
 
     .secondSectionindex .iconGlutenFreeIndex {
@@ -427,9 +386,9 @@ color: #050505;
         text-align: center;
         color: #000000;
         display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         grid-area: text-calidad;
     }
 
@@ -444,9 +403,8 @@ color: #050505;
         font-weight: 700;
         font-size: 34px;
         text-align: center;
-    
     }
-    
+
     .firstSectionIndex .titleTextIndex .textIndex {
         font-style: normal;
         font-weight: 300;
@@ -460,7 +418,6 @@ color: #050505;
         flex-direction: column;
         width: 100%;
         justify-content: center;
-    
     }
 
     .fourthSectionIndex footer .footerTitle {
@@ -484,83 +441,79 @@ color: #050505;
         padding-left: 16px;
         padding-right: 16px;
     }
-    
-    
-.iconFacebook {
-    background-image: url(../images/mobile/index_fb_new.png);
-    width: 26px;
-    height: 26px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.iconInstagram {
-    background-image: url(../images/mobile/index_ig_new.png);
-    width: 26px;
-    height: 26px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    .iconFacebook {
+        background-image: url(../images/mobile/index_fb_new.png);
+        width: 26px;
+        height: 26px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-.iconWhatsapp {
-    background-image: url(../images/mobile/index_wp_new.png);
-    width: 26px;
-    height: 26px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+    .iconInstagram {
+        background-image: url(../images/mobile/index_ig_new.png);
+        width: 26px;
+        height: 26px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
+    .iconWhatsapp {
+        background-image: url(../images/mobile/index_wp_new.png);
+        width: 26px;
+        height: 26px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-.textSecondIndex p {
-    margin: 0px;
-}
+    .textSecondIndex p {
+        margin: 0px;
+    }
 
-.thirdSectionIndex {
-    overflow: hidden;
-}
+    .thirdSectionIndex {
+        overflow: hidden;
+    }
 
-.thirdSectionIndex .thirdTitleIndex {
-    width: 100%;
-    padding: 0 10px;
-    margin-top: 32px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    color: #000000;
-}
+    .thirdSectionIndex .thirdTitleIndex {
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
 
-.fourthTitleIndex {
-    width: 100%;
-    padding: 0 10px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 32px;
-    text-align: center;
-    color: #2F2F2F;
-    z-index: 10;
-}
+    .fourthTitleIndex {
+        width: 100%;
+        padding: 0 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 32px;
+        text-align: center;
+        color: #2F2F2F;
+        z-index: 10;
+    }
 
+    .secondSectionindex .textCalidadIndex p {
+        margin: 2px;
+    }
 
-.secondSectionindex .textCalidadIndex  p {
-    margin: 2px;
-}
+    .secondSectionindex .textGlutenFreeIndex p {
+        margin: 0px;
+    }
 
-.secondSectionindex .textGlutenFreeIndex p {
-    margin: 0px;
-}
-
-.btnVerMasIndexDiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 32px;
-}
-
+    .btnVerMasIndexDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -575,9 +528,9 @@ color: #050505;
         text-align: center;
         color: #000000;
         display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         grid-area: text-calidad;
     }
 }
@@ -587,7 +540,3 @@ color: #050505;
         background-position: center;
     }
 }
-
-
-
-

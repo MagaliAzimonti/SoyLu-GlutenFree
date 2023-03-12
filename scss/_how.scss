@@ -1,9 +1,7 @@
-
-/* ESTILOS HOW */
+/* Estilos how */
 .mainHow {
     background: #FDF9F7;
 }
-
 
 @media (max-width: 419px) {
     .mainHow .eclipseOrder {
@@ -11,14 +9,13 @@
     }
 }
 
-
 @media (max-width: 899px) {
 
     .howDesktopIcons {
         display: none;
     }
-    
-    .mainHow  {
+
+    .mainHow {
         position: relative;
         height: 100%;
         display: flex;
@@ -28,8 +25,8 @@
         align-items: center;
         text-align: center;
     }
-    
-   .mainHow .mainComoLoHacemostitle {
+
+    .mainHow .mainComoLoHacemostitle {
         margin-top: 32px;
         text-align: center;
         width: 100%;
@@ -40,19 +37,18 @@
         font-size: 24px;
         line-height: 36px;
         color: #000000;
-    } 
-    
+    }
+
     .mainHow .twitterVerifiedBadge {
         width: 60px;
         height: 60px;
         margin-top: 32px;
     }
 
-    b {
-        font-weight:400;
+    .bHow {
+        font-weight: 400;
     }
-    
-    
+
     .mainHow .textosDehow {
         width: 98%;
         padding: 0 10px;
@@ -65,13 +61,13 @@
         text-align: center;
         color: #000000;
     }
-    
+
     .mainHow .glutenImageshow {
         width: 60px;
         height: 60px;
         margin-top: 32px;
     }
-    
+
     .mainHow .textoDeHow1 {
         margin-top: 21px;
         width: 98%;
@@ -83,16 +79,16 @@
         line-height: 24px;
         text-align: center;
     }
-    
+
     .mainHow .casaDeGluten {
         width: 67.5px;
         height: 60px;
         margin-top: 32px;
     }
-    
+
     .mainHow .textoHow2 {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         margin-top: 16px;
         width: 98%;
         padding: 0 10px;
@@ -101,9 +97,8 @@
         font-size: 16px;
         line-height: 24px;
         text-align: center;
-       
     }
-    
+
     .mainHow .eclipseOrder {
         background-image: url(../images/mobile/ellipse_orange_one.png);
         display: flex;
@@ -117,7 +112,7 @@
         margin-top: 17px;
         height: 150px;
     }
-    
+
     .mainHow .eclipseOrder .divDelButtonDeHow {
         display: flex;
         flex-direction: column;
@@ -134,7 +129,7 @@
         margin-top: 47px;
         margin-bottom: 54px;
     }
-    
+
     .mainHow .eclipseOrder .divDelButtonDeHow a {
         font-style: normal;
         font-weight: 500;
@@ -147,8 +142,7 @@
         color: #050505;
     }
 
-    .textHow3 { 
+    .textHow3 {
         display: none;
-    }    
-
+    }
 }

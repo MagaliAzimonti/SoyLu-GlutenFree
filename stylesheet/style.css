@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 * {
   padding: 0;
@@ -26,14 +25,10 @@ body::-webkit-scrollbar-thumb:hover {
   background: #F2A654;
   border-radius: 50px; }
 
-/* ESTILOS HEADER */
+/* Estilos header */
 .enlace {
-  position: absolute;
-  /* padding: 20px 50px; */ }
+  position: absolute; }
 
-/* .logo {
-    height: 40px;
-} */
 nav ul {
   float: right;
   margin-right: 20px; }
@@ -54,7 +49,6 @@ li a:hover {
 #check {
   display: none; }
 
-/* MediaQueriesHeader */
 @media (max-width: 899px) {
   nav .fa-chevron-down {
     display: none; }
@@ -77,16 +71,13 @@ li a:hover {
     margin-left: 85%;
     margin-bottom: 40px; }
   .enlace {
-    /* margin-left: -25px;
-        margin-top: -12px; */
     width: 144px;
     display: flex;
     flex-direction: row;
     margin-top: 5px; }
   .enlace img {
     width: 100%;
-    height: 100%;
-    /* margin: 10px 5px; */ }
+    height: 100%; }
   .checkbtn img {
     width: 100%;
     height: 100%; }
@@ -121,21 +112,6 @@ li a:hover {
     color: #f2a654; }
   #check:checked ~ ul {
     right: -30px; }
-  /* 
-    .headerAbout nav ul {
-        top: 130px;
-        z-index: 999;
-    }
-
-    .headerAbout nav .enlace {
-        width: 200px;
-        height: 184px;
-    }
-
-    .headerAbout nav .enlace img {
-        width: 100%;
-        height: 100%;
-    } */
   .dropdownItem {
     display: none; }
   .headerIndex {
@@ -167,18 +143,10 @@ li a:hover {
     width: 100%;
     height: 100%; } }
 
-/* @media (max-width: 952px) {
-    .enlace {
-        padding-left: -20px;
-       height: 300px;
-    }
-}
- */
 @media (max-width: 1439px) and (min-width: 900px) {
   nav {
     height: 132px;
     width: 100%;
-    /* de prueba */
     background-color: #FDF9F7;
     position: fixed;
     z-index: 999;
@@ -188,8 +156,6 @@ li a:hover {
   .enlace {
     left: 0;
     position: absolute;
-    /* margin-top: -47px;
-        margin-left: -14px; */
     width: 161px;
     height: 161px;
     margin-top: -10px;
@@ -197,15 +163,10 @@ li a:hover {
   .logo {
     width: 100%;
     height: 100%; }
-  /* .logo {
-        width: 173px;
-        
-    } */
   nav ul {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    /*  float: right; */
     margin-top: 25px;
     width: 100%; }
   nav ul li {
@@ -215,9 +176,7 @@ li a:hover {
     line-height: 28px;
     letter-spacing: -0.011em;
     color: #2F2F2F;
-    padding-right: 1.5%;
-    /* padding-right: 14px;
- */ }
+    padding-right: 1.5%; }
   nav ul li a {
     color: #2F2F2F; }
   li a.active,
@@ -271,8 +230,6 @@ li a:hover {
   nav ul li:hover .dropdownMenu {
     display: block; }
   .dropdownMenu li a:hover {
-    /* border-radius: 10px;
-        background-color: rgba(242, 166, 84, 1); */
     color: #2F2F2F;
     font-weight: 700;
     border-bottom: 0px;
@@ -348,7 +305,6 @@ li a:hover {
   nav {
     height: 132px;
     width: 100%;
-    /* de prueba */
     background-color: #FDF9F7;
     position: fixed;
     z-index: 999;
@@ -358,23 +314,12 @@ li a:hover {
     align-items: center; }
   .enlace {
     position: absolute;
-    /* margin-top: -47px;
-        margin-left: -14px; */
     width: 161px;
-    height: 161px;
-    /* margin-top: -10px; */
-    /* margin-left: 10px; */ }
+    height: 161px; }
   .logo {
     width: 100%;
     height: 100%; }
-  /* .logo {
-        width: 173px;
-        
-    } */
   nav ul {
-    /*         margin-left: 421px;
- */
-    /* float: right; */
     margin-top: 25px;
     width: 100%;
     display: flex;
@@ -387,12 +332,9 @@ li a:hover {
     line-height: 28px;
     letter-spacing: -0.011em;
     color: #2F2F2F;
-    padding-right: 2.5%;
-    /* padding-right: 34px;
- */ }
+    padding-right: 2.5%; }
   nav ul li a {
     color: #2F2F2F;
-    /* padding: 7px 13px; */
     border-radius: 3px; }
   li a.active,
   li a:hover {
@@ -444,8 +386,6 @@ li a:hover {
   nav ul li:hover .dropdownMenu {
     display: block; }
   .dropdownMenu li a:hover {
-    /* border-radius: 10px;
-        background-color: rgba(242, 166, 84, 1); */
     color: #2F2F2F;
     font-weight: 700;
     border-bottom: 0px;
@@ -458,7 +398,6 @@ li a:hover {
   .not-active {
     pointer-events: none;
     cursor: default; }
-  /* de prueba */
   .headerIndex {
     box-shadow: 0 0 10px #000;
     background: rgba(0, 0, 0, 0.6); }
@@ -505,11 +444,7 @@ li a:hover {
     width: 95px;
     height: 70px;
     margin-left: 42px;
-    margin-top: -5px;
-    /* margin-top: 41px;
-        margin-left: 47px; */
-    /* width: 173px;
-       height: 126px; */ }
+    margin-top: -5px; }
   .enlace {
     position: absolute;
     width: 161px;
@@ -519,11 +454,10 @@ li a:hover {
   .logo {
     width: 100%;
     height: 100%; }
-  /* de prueba */
   main {
     padding-top: 132px; } }
 
-/* ESTILOS INDEX */
+/* Estilos index */
 .firstSectionIndex {
   height: 100%; }
 
@@ -633,8 +567,7 @@ li a:hover {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */ }
+  justify-content: center; }
 
 .fourthSectionIndex {
   position: relative;
@@ -642,14 +575,11 @@ li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
-  /* align-items: center; */ }
+  overflow: hidden; }
 
-/* Carrusel 1 */
 .indexCarouselLine {
   display: flex;
   flex-direction: column;
-  /*   align-items: center; */
   justify-content: center; }
 
 .slider {
@@ -700,11 +630,9 @@ li a:hover {
   letter-spacing: 0.1px;
   color: #050505; }
 
-/* Carrusel 2 */
 .indexCarouselLineTwo {
   display: flex;
   flex-direction: column;
-  /*   align-items: center; */
   justify-content: center;
   margin-bottom: 20px; }
 
@@ -723,9 +651,6 @@ li a:hover {
   margin: 0 5px;
   width: 179px;
   height: 200px;
-  /* box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-    -webkit-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82);
-    -moz-box-shadow: 1px 6px 5px -1px rgba(122, 115, 115, 0.82); */
   border-radius: 7px;
   display: flex;
   flex-direction: column;
@@ -782,7 +707,6 @@ li a:hover {
   .rectangleCarouselTwo {
     display: none; } }
 
-/* MediasQueriesCarouselIndex */
 @media (max-width: 899px) {
   .carrousel {
     display: none; }
@@ -983,7 +907,7 @@ li a:hover {
   .secondSectionindex .circleIndex {
     background-position: center; } }
 
-/* ESTILOS ABOUT */
+/* Estilos about */
 main {
   overflow: hidden; }
 
@@ -1175,7 +1099,7 @@ main {
     background-position: center;
     background-repeat: no-repeat; } }
 
-/* ESTILOS CONTACT */
+/* Estilos contact */
 @media (max-width: 1199px) {
   .titleContact {
     z-index: 10;
@@ -1184,6 +1108,8 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center; }
+  .mainContact .formularioContact form .formFieldset {
+    z-index: 20; }
   .mainContact .formularioContact form .formFieldset .divDelButtonDelFormulario .buttonDelformulario1 {
     display: flex;
     flex-direction: column;
@@ -1249,14 +1175,6 @@ main {
     display: none; }
   .ImgSamwichcontac {
     display: none; }
-  /* .mainContact .formularioContact form .formFieldset fieldset legend {
-        z-index: 10;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: 0.4px;
-    } */
   .mainContact {
     position: relative;
     display: flex;
@@ -1277,21 +1195,8 @@ main {
   flex-direction: column;
   position: relative;
   height: 100%;
-  overflow: hidden;
-  /* justify-content: center;
-    overflow: hidden;
-    background: #FDF9F7;
-    position: relative;
-    height: 100%; */ }
+  overflow: hidden; }
 
-/* .titleContact {
-    z-index: 10;
-    padding-top: 42px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-} */
 .rectangleContact {
   height: 112px;
   transform: rotate(-5.78deg);
@@ -1317,7 +1222,7 @@ fieldset {
   line-height: 24px;
   letter-spacing: 0.5px;
   color: #1C1B1F;
-  background: #FDF9F7;
+  background-color: #FDF9F7;
   height: 100%; }
 
 .mainContact .formularioContact form div fieldset textarea {
@@ -1333,7 +1238,8 @@ fieldset {
   resize: none;
   background: #FDF9F7; }
 
-input:focus, input[type]:focus {
+input:focus,
+input[type]:focus {
   outline: 0 none !important;
   border-color: #F2A654;
   box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(255, 144, 0, 0.6); }
@@ -1367,11 +1273,11 @@ input:focus, input[type]:focus {
     flex-direction: column;
     justify-content: center;
     padding: 10px;
-    background: rgba(255, 170, 136, 0.6);
+    background-color: rgba(255, 170, 136, 0.6);
     height: 94px;
     position: relative; } }
 
-/* ESTILOS HOW */
+/* Estilos how */
 .mainHow {
   background: #FDF9F7; }
 
@@ -1406,7 +1312,7 @@ input:focus, input[type]:focus {
     width: 60px;
     height: 60px;
     margin-top: 32px; }
-  b {
+  .bHow {
     font-weight: 400; }
   .mainHow .textosDehow {
     width: 98%;
@@ -1488,7 +1394,7 @@ input:focus, input[type]:focus {
   .textHow3 {
     display: none; } }
 
-/* ESTILOS ORDER */
+/* Estilos order */
 .firstSectionOrder {
   height: 100%;
   overflow: hidden;
@@ -1507,10 +1413,6 @@ input:focus, input[type]:focus {
   overflow: hidden; }
 
 @media (max-width: 899px) {
-  /* .firstSectionOrder {
-        align-items: center;
-        justify-content: center;
-    } */
   .firstSectionOrder h1 {
     margin-top: 32px;
     width: 100%;
@@ -1522,26 +1424,6 @@ input:focus, input[type]:focus {
     font-size: 24px;
     line-height: 36px;
     color: #000000; }
-  /*  .circleLeft {
-        background-image: url(../images/mobile/order_left_circle.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 641px;
-    }
-    .circleRight {
-        background-image: url(../images/mobile/order_right_circle.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
- */
-  /* .imagesOrder {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 83px;
-    } */
   .imagesOrder {
     display: grid;
     align-items: center;
@@ -1579,14 +1461,6 @@ input:focus, input[type]:focus {
     grid-area: imageRappi; }
   .circleRight {
     grid-area: circleRight; }
-  /* .firstSectionOrder .circleOrder {
-        background-image: url(../images/eclipse_orange_index.png);
-        width: 100%;
-        height: 100px;
-        background-size: cover;
-        position: relative;
-    }
- */
   .secondSectionOrder {
     width: 100%;
     position: relative;
@@ -1724,7 +1598,7 @@ input:focus, input[type]:focus {
   .dividerRight {
     width: 110px; } }
 
-/* ESTILOS PRODUCTS */
+/* Estilos Products */
 .mainProduct {
   background-color: #FDF9F7; }
 
@@ -1743,7 +1617,6 @@ input:focus, input[type]:focus {
 .mainProduct .prodsDiv p {
   font-style: normal; }
 
-/* mediaQueriesProducts */
 @media (max-width: 899px) {
   .mainProduct .gridProds {
     padding-top: 32px;
@@ -1824,8 +1697,7 @@ input:focus, input[type]:focus {
     width: 100%;
     padding: 10px; } }
 
-/* ESTILOS CARPETA PRODUCTS */
-/* Favs */
+/* Estilos favs */
 .firstSectionFavs {
   background: #FDF9F7; }
 
@@ -1837,7 +1709,6 @@ input:focus, input[type]:focus {
   height: 100%;
   overflow: hidden; }
 
-/* mediaqueriesFavs */
 @media (max-width: 1099px) {
   .firstSectionFavs {
     justify-content: center; }
@@ -1942,7 +1813,7 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #050505; } }
 
-/* Frozen */
+/* Estilos frozen */
 @media (max-width: 1099px) {
   .firstSectionFrozen {
     background: #FDF9F7;
@@ -2190,7 +2061,7 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #050505; } }
 
-/* Bakery */
+/* Estilos nakery */
 .firstSectionBakery {
   background: #FDF9F7; }
 
@@ -2383,7 +2254,7 @@ input:focus, input[type]:focus {
   .imgBakeryDkTwo {
     display: none; } }
 
-/* Lunches */
+/* Estilos Lunches */
 .firstSectionLunch {
   height: 100%;
   overflow: hidden;
@@ -2557,33 +2428,6 @@ input:focus, input[type]:focus {
     padding: 0 10px; }
   .btnLunchTwo {
     display: none; }
-  /* .btnLunchTwo {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        gap: 8px;
-        margin-bottom: 108px;
-        position: relative;
-        width: 143px;
-        height: 44px;
-        border-width: 0px;
-        background: #F2A654;
-        border-radius: 100px;
-    }
-
-    .btnLunchTwo a {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.1px;
-        color: #050505;
-    } */
   .thirdSectionLunch {
     background: #FDF9F7;
     display: flex;
@@ -2674,7 +2518,7 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #050505; } }
 
-/* Footer de How y About --> versión desktop */
+/* Footer de How y About Desktop */
 @media (min-width: 900px) {
   .footerAbout {
     height: 81px;
@@ -2713,8 +2557,7 @@ input:focus, input[type]:focus {
     width: 45px;
     height: 45px; } }
 
-/* MEDIA QUERIES */
-/* Media queries -> Estilos index */
+/* Estilos index Desktop */
 @media (min-width: 900px) {
   .heroImageIndex {
     background-image: url(../images/desktop/heroImageIndex.png);
@@ -2817,7 +2660,7 @@ input:focus, input[type]:focus {
     overflow: hidden;
     position: relative;
     height: 100%; }
-  .FourthSectionIndex {
+  .fourthSectionIndex {
     overflow: hidden;
     position: relative;
     height: 100%; }
@@ -3020,7 +2863,6 @@ input:focus, input[type]:focus {
     align-items: center;
     padding-top: 92px;
     margin-bottom: 120px; }
-  /* Carousel Two */
   .indexCarouselLineTwo {
     display: none; }
   .carrouselTwo {
@@ -3070,31 +2912,7 @@ input:focus, input[type]:focus {
     width: 56px;
     height: 56px; }
   .itemCarrouselArrowsTwo > a:hover {
-    cursor: pointer; }
-  /* .countPruebaTwo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .countPruebaTwo a button {
-        margin: 18px;
-        width: 13px;
-        height: 13px;
-        border-radius: 10px;
-        border: 1px solid rgba(217, 217, 217, 1);
-        color: rgba(217, 217, 217, 1);
-    }
-
-    .countPruebaTwo a {
-        font-size: 13px;
-        text-decoration: none;
-        color: rgba(217, 217, 217, 1);
-    }
-
-    .countPruebaTwo button:hover {
-        background-color:rgba(242, 166, 84, 1);
-    } */ }
+    cursor: pointer; } }
 
 @media (min-width: 1400px) {
   .heroImageIndex {
@@ -3135,13 +2953,11 @@ input:focus, input[type]:focus {
     padding: 20px;
     margin-top: 50px; } }
 
-@media (max-width: 1050px) and (min-width: 900px) {
+@media (max-width: 1100px) and (min-width: 900px) {
   .heroImageIndex {
     background-image: url(../images/desktop/heroImageIndex.png);
     align-items: center;
-    height: 924px; } }
-
-@media (max-width: 1100px) and (min-width: 900px) {
+    height: 924px; }
   .divImagenesCarrousel div img {
     margin: 8px;
     width: 280px;
@@ -3175,7 +2991,7 @@ input:focus, input[type]:focus {
   .secondSectionindex .circleIndex {
     background-position: center; } }
 
-/* Media queries -> Estilos about */
+/* Estilos about Desktop */
 @media (min-width: 900px) {
   .firstSectionAbout {
     overflow-x: hidden; }
@@ -3249,11 +3065,6 @@ input:focus, input[type]:focus {
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "misionDiv valoresDiv"; }
-  /* .heroImageAbout-2 {
-        align-self: center;
-        z-index: 20;
-        grid-area: heroImageAbout-2;
-    } */
   .misionDiv {
     grid-area: misionDiv; }
   .valoresDiv {
@@ -3320,7 +3131,6 @@ input:focus, input[type]:focus {
     align-items: center;
     justify-items: center;
     z-index: 20;
-    /* grid-template-columns: 0fr 0fr 0fr 0fr; */
     grid-template-rows: 0fr 0fr 0fr 0fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -3398,7 +3208,7 @@ input:focus, input[type]:focus {
   .firstSectionAbout h1 {
     margin-top: 32px; } }
 
-/* Media queries -> Estilos how */
+/* Estilos how Desktop */
 @media (min-width: 900px) {
   .howMobileIcons {
     display: none; }
@@ -3517,7 +3327,7 @@ input:focus, input[type]:focus {
   .mainHow .mainComoLoHacemostitle {
     margin-top: 32px; } }
 
-/* Media queries -> Estilos products */
+/* Estilos products Desktop */
 @media (min-width: 900px) {
   .rectangleProdsOne {
     height: 266.1px;
@@ -3627,7 +3437,7 @@ input:focus, input[type]:focus {
   .mainProduct .productMainH1Desktop {
     margin-top: 32px; } }
 
-/* Media queries -> Estilos favs */
+/* Estilos favs Desktop */
 @media (min-width: 1100px) {
   .firstSectionFavs {
     position: relative;
@@ -3666,8 +3476,7 @@ input:focus, input[type]:focus {
     height: 266.1px;
     position: absolute;
     background-position: center;
-    margin-top: 900px;
-    /* top: 150%; */ }
+    margin-top: 900px; }
   .containerFavsDesktop {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -3756,8 +3565,9 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #2F2F2F; } }
 
-/* Media queries -> Estilos frozen */
+/* Estilos frozen Desktop */
 @media (min-width: 1100px) {
+  /* First section frozen */
   .firstSectionFrozen {
     border-bottom: 2px solid rgba(255, 170, 136, 0.5);
     position: relative;
@@ -3868,7 +3678,7 @@ input:focus, input[type]:focus {
     width: 300%;
     background-position: center;
     margin-top: -80px; }
-  /* Second section */
+  /* Second section frozen */
   .rectangleFrozenTwo {
     height: 266.1px;
     position: absolute;
@@ -3942,7 +3752,7 @@ input:focus, input[type]:focus {
     color: #2F2F2F; }
   .divPrepizza {
     display: none; }
-  /* Third section */
+  /* Third section frozen */
   .secondSectionFrozen {
     border-top: 2px solid rgba(255, 170, 136, 0.4);
     position: relative;
@@ -4014,7 +3824,7 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #2F2F2F; } }
 
-/* Media queries -> Estilos bakery */
+/* Estilos bakery Desktop */
 @media (min-width: 1100px) {
   .rectangleBakery {
     height: 266.1px;
@@ -4215,7 +4025,7 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #2F2F2F; } }
 
-/* Media queries -> Estilos lunches */
+/* Estilos lunch Desktop */
 @media (min-width: 1100px) {
   .titleSandwiches {
     z-index: 10;
@@ -4492,7 +4302,7 @@ input:focus, input[type]:focus {
     color: #2F2F2F;
     width: 80%; } }
 
-/* Media queries -> Estilos order */
+/* Estilos order Desktop */
 @media (min-width: 900px) {
   .brOrderMobile {
     display: none; }
@@ -4687,7 +4497,7 @@ input:focus, input[type]:focus {
   .firstSectionOrder h1 {
     margin-top: 32px; } }
 
-/* Media queries -> Estilos contact */
+/* Estilos contact Desktop */
 @media screen and (min-width: 1200px) {
   .divContactIformation {
     display: none; }
@@ -4801,125 +4611,6 @@ input:focus, input[type]:focus {
     line-height: 12px;
     color: #2F2F2F;
     margin-top: 35px; }
-  /* .divContainerInformaccion2 {
-        display: grid;
-        height: 81px;
-        width: 100%;
-        background-color: #FFAA88;
-        align-items: center;
-        justify-content: center;
-        grid-template-columns: 0fr 0fr 0fr;
-        grid-template-rows: 0fr 0fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "houseFooter contactInfoP contactInfoP"
-            "houseFooter contactInfoIconsWp contactInfoIconsMail";
-    }
-
-    .houseFooter {
-        width: 41px;
-        height: 42px;
-        margin-bottom: 19px;
-        grid-area: houseFooter;
-    }
-
-    .contactInfoP {
-        width: 739px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #2F2F2F;
-        margin-top: 34px;
-        margin-left: 50px;
-        grid-area: contactInfoP;
-    }
-
-    .contactInfoIconsWp {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding-left: 90px;
-        margin-bottom: 32px;
-        grid-area: contactInfoIconsWp;
-    }
-
-    .contactInfoIconsWp p {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        color: #2F2F2F;
-    }
-
-    .contactInfoIconsWp img {
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-
-    .contactInfoIconsMail {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: -50px;
-        margin-bottom: 32px;
-        grid-area: contactInfoIconsMail;
-    }
-
-    .contactInfoIconsMail img {
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-
-    .contactInfoIconsMail p {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        color: #2F2F2F;
-    } */
-  /* .divContainerInformaccion2 {
-        background-color: #FFAA88;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        grid-auto-columns: 1fr;
-        grid-template-columns: 0fr 0fr;
-        grid-template-rows: 0fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "house-footer contac-footer";
-    }
-
-
-    .houseFotter {
-        width: 81.23px;
-        height: 78px;
-        margin: 55.86px 20px 56.86px 184px;
-        grid-area: house-footer;
-        justify-self: self-end;
-        align-self: center;
-    }
-
-    .pContactInformatio2 {
-        
-        grid-area: contac-footer;
-    
-        
-    }
-
-    .contactInfoP {
-        display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 24px;
-        text-align: center;
-        line-height: 30px;
-    } */
   .gridContact {
     display: grid;
     grid-template-columns: 1fr 0fr;
@@ -4928,9 +4619,7 @@ input:focus, input[type]:focus {
     grid-auto-flow: row;
     grid-template-areas: "formularioContact imgContactRight"; }
   .titleContact {
-    display: none;
-    /*        padding-left: 250px;
- */ }
+    display: none; }
   .titleContactDesk {
     margin-bottom: 48px; }
   .formularioContact {
@@ -4951,17 +4640,6 @@ input:focus, input[type]:focus {
     position: relative;
     margin-top: -100px;
     margin-right: -50px; }
-  /* .ImgSamwichcontac {
-            position: relative;
-        } */
-  /* .eclipseContact {
-        margin-left: 100px;
-        margin-top: -420px;
-    }
-
-    .ImgSamwichcontac {
-        margin-top:-360px;
-    } */
   .mainContact legend {
     display: none; } }
 

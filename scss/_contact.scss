@@ -1,9 +1,5 @@
-/* ESTILOS CONTACT */
-
-
-
+/* Estilos contact */
 @media (max-width:1199px) {
-
     .titleContact {
         z-index: 10;
         padding-top: 42px;
@@ -11,6 +7,9 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .mainContact .formularioContact form .formFieldset {
+        z-index: 20;
     }
 
     .mainContact .formularioContact form .formFieldset .divDelButtonDelFormulario .buttonDelformulario1 {
@@ -49,12 +48,12 @@
         margin-top: -5px;
     }
 
-     .divContactIformation {
+    .divContactIformation {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 10px;
-        background: rgba(255, 170, 136, 0.6);        
+        background: rgba(255, 170, 136, 0.6);
         height: 64px;
         position: relative;
     }
@@ -62,11 +61,11 @@
     .divContactIformation p {
         margin: 14px;
         font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 18px;
-text-align: center;
-color: #000000;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
     }
 
     .divContainerInformaccion2 {
@@ -83,13 +82,13 @@ color: #000000;
 
     .mainContact label {
         font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 0.4px;
-color: #49454F;
-display: flex;
-align-items: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: #49454F;
+        display: flex;
+        align-items: center;
     }
 
     .ellipseContact {
@@ -99,15 +98,6 @@ align-items: center;
     .ImgSamwichcontac {
         display: none;
     }
-
-    /* .mainContact .formularioContact form .formFieldset fieldset legend {
-        z-index: 10;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: 0.4px;
-    } */
 
     .mainContact {
         position: relative;
@@ -123,14 +113,11 @@ align-items: center;
         justify-content: center;
         margin-top: 50px;
         padding: 0 15px;
-    
     }
 
     .titleContactDesk {
         display: none;
     }
-    
-   
 }
 
 .mainContact {
@@ -139,27 +126,7 @@ align-items: center;
     position: relative;
     height: 100%;
     overflow: hidden;
-    
-    /* justify-content: center;
-    overflow: hidden;
-    background: #FDF9F7;
-    position: relative;
-    height: 100%; */
-
-    
 }
-
-
-
-
-/* .titleContact {
-    z-index: 10;
-    padding-top: 42px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-} */
 
 .rectangleContact {
     height: 112px;
@@ -183,8 +150,6 @@ fieldset {
     height: 152px;
 }
 
-
-
 .mainContact .formularioContact form .formFieldset fieldset input {
     font-style: normal;
     font-weight: 400;
@@ -192,10 +157,9 @@ fieldset {
     line-height: 24px;
     letter-spacing: 0.5px;
     color: #1C1B1F;
-    background: #FDF9F7;
+    background-color: #FDF9F7;
     height: 100%;
 }
-
 
 .mainContact .formularioContact form div fieldset textarea {
     height: 100%;
@@ -211,16 +175,17 @@ fieldset {
     background: #FDF9F7;
 }
 
-input:focus, input[type]:focus {
-    outline: 0 none !important; 
-    border-color:#F2A654;
-    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
+input:focus,
+input[type]:focus {
+    outline: 0 none !important;
+    border-color: #F2A654;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255, 144, 0, 0.6);
 }
 
 .textAreaContact:focus {
-    outline: 0 none !important; 
-    border-color:#F2A654;
-    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
+    outline: 0 none !important;
+    border-color: #F2A654;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255, 144, 0, 0.6);
 }
 
 .mainContact .formularioContact form .formFieldset .divDelButtonDelFormulario {
@@ -232,7 +197,6 @@ input:focus, input[type]:focus {
     margin-bottom: 32px;
 }
 
-
 .mainContact .formularioContact form .formFieldset .divDelButtonDelFormulario .buttonDelformulario1 a {
     font-style: normal;
     font-weight: 500;
@@ -243,15 +207,15 @@ input:focus, input[type]:focus {
     letter-spacing: 0.1px;
     color: #050505;
 }
-
 @media (max-width:306px) {
     .divContactIformation {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 10px;
-        background: rgba(255, 170, 136, 0.6);        
+        background-color: rgba(255, 170, 136, 0.6);
         height: 94px;
         position: relative;
     }
+
 }

@@ -1,11 +1,5 @@
-/* MEDIA QUERIES */
-
-/* Media queries -> Estilos index */
-
-
+/* Estilos index Desktop */
 @media (min-width: 900px) {
-
-
     .heroImageIndex {
         background-image: url(../images/desktop/heroImageIndex.png);
         align-items: center;
@@ -43,7 +37,6 @@
         border-radius: 100px;
         margin-top: -128px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        
     }
 
     .logoIndex {
@@ -57,8 +50,6 @@
         grid-template-rows: 1fr 0.5fr 0.5fr 0.5fr 1fr;
         gap: 0px 0px;
         justify-items: center;
-
-
         grid-template-areas:
             "second-title second-title"
             "icon-gluten icon-calidad"
@@ -139,14 +130,13 @@
         margin-right: 350px;
     }
 
-
     .thirdSectionIndex {
         overflow: hidden;
         position: relative;
         height: 100%;
     }
 
-    .FourthSectionIndex {
+    .fourthSectionIndex {
         overflow: hidden;
         position: relative;
         height: 100%;
@@ -194,10 +184,10 @@
 
     .carousel1P {
         font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 36px;
-color: #000000;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        color: #000000;
     }
 
     .fourthTitleIndex {
@@ -237,8 +227,6 @@ color: #000000;
         justify-items: flex-start;
         padding-top: 124px;
         z-index: 10;
-
-
     }
 
     .footerIndex .footerIcons {
@@ -309,13 +297,11 @@ color: #000000;
         width: 100%;
         z-index: 20;
         overflow: hidden;
-
     }
 
     .conteCarrousel {
         width: 100%;
         height: 700px;
-
     }
 
     .itemCarrousel {
@@ -327,9 +313,7 @@ color: #000000;
 
     .itemCarrousel h2 {
         padding-bottom: 93px;
-
     }
-
 
     .itemCarrouselTarjeta {
         width: 100%;
@@ -353,7 +337,6 @@ color: #000000;
         color: #000000;
         margin-left: -15px;
     }
-    
 
     .divImagenesCarrousel div img {
         margin: 10px;
@@ -382,10 +365,11 @@ color: #000000;
     }
 
     .itemCarrouselArrowRight {
-        margin-right:20px;
+        margin-right: 20px;
     }
+
     .itemCarrouselArrowLeft {
-        margin-left:20px;
+        margin-left: 20px;
     }
 
     .itemCarrouselArrows>a:hover {
@@ -427,8 +411,6 @@ color: #000000;
         padding-top: 92px;
         margin-bottom: 120px;
     }
-
-    /* Carousel Two */
 
     .indexCarouselLineTwo {
         display: none;
@@ -492,6 +474,7 @@ color: #000000;
     .itemCarrouselArrowsTwoLeft {
         margin-left: 20px;
     }
+
     .itemCarrouselArrowsTwoRight {
         margin-right: 20px;
     }
@@ -501,39 +484,9 @@ color: #000000;
         height: 56px;
     }
 
-    
     .itemCarrouselArrowsTwo>a:hover {
         cursor: pointer;
     }
-
-
-
-
-
-    /* .countPruebaTwo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .countPruebaTwo a button {
-        margin: 18px;
-        width: 13px;
-        height: 13px;
-        border-radius: 10px;
-        border: 1px solid rgba(217, 217, 217, 1);
-        color: rgba(217, 217, 217, 1);
-    }
-
-    .countPruebaTwo a {
-        font-size: 13px;
-        text-decoration: none;
-        color: rgba(217, 217, 217, 1);
-    }
-
-    .countPruebaTwo button:hover {
-        background-color:rgba(242, 166, 84, 1);
-    } */
 }
 
 @media (min-width: 1400px) {
@@ -585,20 +538,17 @@ color: #000000;
     }
 }
 
-@media (max-width: 1050px) and (min-width:900px) {
+@media (max-width: 1100px) and (min-width:900px) {
     .heroImageIndex {
         background-image: url(../images/desktop/heroImageIndex.png);
         align-items: center;
         height: 924px;
     }
-}
 
-@media (max-width: 1100px) and (min-width:900px) {
     .divImagenesCarrousel div img {
         margin: 8px;
         width: 280px;
         height: 244px;
-
     }
 
     .divImagenesCarrouselTwo img {
@@ -616,38 +566,34 @@ color: #000000;
         color: #2F2F2F;
         margin-left: 250px;
         align-self: self-start;
+    }
+
+    .secondSectionindex .textCalidadIndex {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: center;
+        color: #2F2F2F;
+        margin-right: 250px;
+        align-self: self-start;
+    }
+
+    .secondSectionindex .iconGlutenFreeIndex {
+        margin-left: 250px;
+    }
+
+    .secondSectionindex .iconCalidadIndex {
+        margin-right: 250px;
+    }
+
+    .secondSectionindex .circleIndex {
+        background-position: center;
+    }
 }
 
-.secondSectionindex .textCalidadIndex {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
-    text-align: center;
-    color: #2F2F2F;
-    margin-right: 250px;
-    align-self: self-start;
-}
-
-.secondSectionindex .iconGlutenFreeIndex {
-    margin-left: 250px;
-}
-
-.secondSectionindex .iconCalidadIndex {
-    margin-right: 250px;
-}
-
-.secondSectionindex .circleIndex {
-    background-position: center;
-}
-
-}
-
-
-
-/* Media queries -> Estilos about */
+/* Estilos about Desktop */
 @media (min-width: 900px) {
-
     .firstSectionAbout {
         overflow-x: hidden;
     }
@@ -736,16 +682,8 @@ color: #000000;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            "misionDiv valoresDiv"
-            /* "heroImageAbout-2 heroImageAbout-2" */
-        ;
+            "misionDiv valoresDiv";
     }
-
-    /* .heroImageAbout-2 {
-        align-self: center;
-        z-index: 20;
-        grid-area: heroImageAbout-2;
-    } */
 
     .misionDiv {
         grid-area: misionDiv;
@@ -769,8 +707,7 @@ color: #000000;
             "titleMision titleMision"
             "secondParagraphAbout secondParagraphAbout"
             "iconQualityDesk iconGlutenFreeDesk"
-            "h3QualityDesk h3lutenFreeDesk"
-        ;
+            "h3QualityDesk h3lutenFreeDesk";
     }
 
     .titleMision {
@@ -836,7 +773,6 @@ color: #000000;
         align-items: center;
         justify-items: center;
         z-index: 20;
-        /* grid-template-columns: 0fr 0fr 0fr 0fr; */
         grid-template-rows: 0fr 0fr 0fr 0fr;
         gap: 0px 0px;
         grid-auto-flow: row;
@@ -942,14 +878,13 @@ color: #000000;
     }
 }
 
-
-
-@media (max-width: 1100px) and (min-width: 900px){
+@media (max-width: 1100px) and (min-width: 900px) {
     .firstSectionAbout h1 {
         margin-top: 32px;
     }
 }
-/* Media queries -> Estilos how */
+
+/* Estilos how Desktop */
 @media (min-width: 900px) {
     .howMobileIcons {
         display: none;
@@ -1106,10 +1041,9 @@ color: #000000;
     .mainHow .mainComoLoHacemostitle {
         margin-top: 32px;
     }
-    
 }
 
-/* Media queries -> Estilos products */
+/* Estilos products Desktop */
 @media (min-width: 900px) {
     .rectangleProdsOne {
         height: 266.1px;
@@ -1239,14 +1173,12 @@ color: #000000;
         color: #000000;
         margin-left: 52px;
         margin-right: 52px;
-
     }
 
     .mainProduct .productMainH1 {
         display: none;
     }
 }
-
 
 @media (max-width:1100px) and (min-width: 900px) {
     .mainProduct .prodsDiv {
@@ -1258,15 +1190,14 @@ color: #000000;
         justify-content: center;
     }
 
-    .mainProduct .productMainH1Desktop {   
+    .mainProduct .productMainH1Desktop {
         margin-top: 32px;
     }
 }
 
 
-/* Media queries -> Estilos favs */
+/* Estilos favs Desktop */
 @media (min-width:1100px) {
-
     .firstSectionFavs {
         position: relative;
         overflow: hidden;
@@ -1315,7 +1246,6 @@ color: #000000;
         position: absolute;
         background-position: center;
         margin-top: 900px;
-        /* top: 150%; */
     }
 
     .containerFavsDesktop {
@@ -1365,7 +1295,7 @@ color: #000000;
     }
 
     .firstSectionFavs .listOne .divOne {
-        margin-top:-35px;
+        margin-top: -35px;
     }
 
     .firstSectionFavs .listOne div h3 {
@@ -1435,8 +1365,10 @@ color: #000000;
     }
 }
 
-/* Media queries -> Estilos frozen */
+/* Estilos frozen Desktop */
 @media (min-width:1100px) {
+
+    /* First section frozen */
     .firstSectionFrozen {
         border-bottom: 2px solid rgba(255, 170, 136, 0.5);
         position: relative;
@@ -1578,8 +1510,7 @@ color: #000000;
         margin-top: -80px;
     }
 
-    /* Second section */
-
+    /* Second section frozen */
     .rectangleFrozenTwo {
         height: 266.1px;
         position: absolute;
@@ -1677,8 +1608,7 @@ color: #000000;
         display: none;
     }
 
-    /* Third section */
-
+    /* Third section frozen */
     .secondSectionFrozen {
         border-top: 2px solid rgba(255, 170, 136, 0.4);
         position: relative;
@@ -1772,7 +1702,7 @@ color: #000000;
     }
 }
 
-/* Media queries -> Estilos bakery */
+/* Estilos bakery Desktop */
 @media (min-width:1100px) {
     .rectangleBakery {
         height: 266.1px;
@@ -1909,7 +1839,6 @@ color: #000000;
         position: relative;
     }
 
-
     .secondBakeryGrid {
         display: grid;
         align-items: center;
@@ -2036,9 +1965,8 @@ color: #000000;
     }
 }
 
-/* Media queries -> Estilos lunches */
+/* Estilos lunch Desktop */
 @media (min-width:1100px) {
-
     .titleSandwiches {
         z-index: 10;
         background-position: center;
@@ -2268,7 +2196,6 @@ color: #000000;
         line-height: 36px;
         color: #2F2F2F;
         width: 428px;
-
     }
 
     .btnLunchDiv-2 .btnLunchTwo {
@@ -2385,7 +2312,6 @@ color: #000000;
         margin-top: 35px;
     }
 
-
     .thirdSectionLunch .listThree h3 {
         font-style: normal;
         font-weight: 600;
@@ -2404,10 +2330,8 @@ color: #000000;
     }
 }
 
-
-/* Media queries -> Estilos order */
+/* Estilos order Desktop */
 @media (min-width: 900px) {
-
     .brOrderMobile {
         display: none;
     }
@@ -2508,7 +2432,6 @@ color: #000000;
         align-items: center;
         letter-spacing: 0.015em;
         color: #FDF9F7;
-
     }
 
     .buttonOrderDiv {
@@ -2653,15 +2576,13 @@ color: #000000;
     }
 }
 
-@media (max-width:1100px) and (min-width: 900px)  {
+@media (max-width:1100px) and (min-width: 900px) {
     .firstSectionOrder h1 {
         margin-top: 32px;
     }
 }
 
-
-
-/* Media queries -> Estilos contact */
+/* Estilos contact Desktop */
 @media screen and (min-width:1200px) {
     .divContactIformation {
         display: none;
@@ -2690,7 +2611,6 @@ color: #000000;
         margin-top: 51px;
         margin-bottom: 144px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
     }
 
     .mainContact .titleContactDesk h1 {
@@ -2718,8 +2638,6 @@ color: #000000;
         margin-top: -5px;
         margin-bottom: 45px;
     }
-
-
 
     fieldset {
         margin-bottom: 20px;
@@ -2758,14 +2676,14 @@ color: #000000;
 
     .contactInfoP {
         font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 12px;
-display: flex;
-color: #2F2F2F;
-margin-top: 35px;
-margin-left: 28px;
-margin-right: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 12px;
+        display: flex;
+        color: #2F2F2F;
+        margin-top: 35px;
+        margin-left: 28px;
+        margin-right: 10px;
     }
 
     .contactInfoIconsWp {
@@ -2786,24 +2704,23 @@ margin-right: 10px;
     }
 
     .contactInfoIconsWp img {
-       width: 22px;
-       height: 22px;
-       margin-top: 30px;
-       margin-right: 5px;
+        width: 22px;
+        height: 22px;
+        margin-top: 30px;
+        margin-right: 5px;
     }
 
     .contactInfoIconsMail {
         display: flex;
         flex-direction: row;
         text-align: center;
-
     }
 
     .contactInfoIconsMail img {
         width: 25px;
-       height: 18px;
-       margin-top: 33px;
-       margin-right:5px;
+        height: 18px;
+        margin-top: 33px;
+        margin-right: 5px;
     }
 
     .contactInfoIconsMail p {
@@ -2814,129 +2731,6 @@ margin-right: 10px;
         color: #2F2F2F;
         margin-top: 35px;
     }
-
-    /* .divContainerInformaccion2 {
-        display: grid;
-        height: 81px;
-        width: 100%;
-        background-color: #FFAA88;
-        align-items: center;
-        justify-content: center;
-        grid-template-columns: 0fr 0fr 0fr;
-        grid-template-rows: 0fr 0fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas:
-            "houseFooter contactInfoP contactInfoP"
-            "houseFooter contactInfoIconsWp contactInfoIconsMail";
-    }
-
-    .houseFooter {
-        width: 41px;
-        height: 42px;
-        margin-bottom: 19px;
-        grid-area: houseFooter;
-    }
-
-    .contactInfoP {
-        width: 739px;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #2F2F2F;
-        margin-top: 34px;
-        margin-left: 50px;
-        grid-area: contactInfoP;
-    }
-
-    .contactInfoIconsWp {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding-left: 90px;
-        margin-bottom: 32px;
-        grid-area: contactInfoIconsWp;
-    }
-
-    .contactInfoIconsWp p {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        color: #2F2F2F;
-    }
-
-    .contactInfoIconsWp img {
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-
-    .contactInfoIconsMail {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: -50px;
-        margin-bottom: 32px;
-        grid-area: contactInfoIconsMail;
-    }
-
-    .contactInfoIconsMail img {
-        margin-right: 10px;
-        margin-bottom: 15px;
-    }
-
-    .contactInfoIconsMail p {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        color: #2F2F2F;
-    } */
-
-
-
-    /* .divContainerInformaccion2 {
-        background-color: #FFAA88;
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        grid-auto-columns: 1fr;
-        grid-template-columns: 0fr 0fr;
-        grid-template-rows: 0fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "house-footer contac-footer";
-    }
-
-
-    .houseFotter {
-        width: 81.23px;
-        height: 78px;
-        margin: 55.86px 20px 56.86px 184px;
-        grid-area: house-footer;
-        justify-self: self-end;
-        align-self: center;
-    }
-
-    .pContactInformatio2 {
-        
-        grid-area: contac-footer;
-    
-        
-    }
-
-    .contactInfoP {
-        display: flex;
-        flex-direction: row;
-        font-weight: 400;
-        font-size: 24px;
-        text-align: center;
-        line-height: 30px;
-    } */
 
     .gridContact {
         display: grid;
@@ -2951,8 +2745,6 @@ margin-right: 10px;
 
     .titleContact {
         display: none;
-        /*        padding-left: 250px;
- */
     }
 
     .titleContactDesk {
@@ -2977,7 +2769,6 @@ margin-right: 10px;
         position: absolute;
         margin-left: -100px;
         margin-top: -150px;
-
     }
 
     .ImgSamwichcontac {
@@ -2986,25 +2777,9 @@ margin-right: 10px;
         margin-right: -50px;
     }
 
-    /* .ImgSamwichcontac {
-            position: relative;
-        } */
-
-    /* .eclipseContact {
-        margin-left: 100px;
-        margin-top: -420px;
-    }
-
-    .ImgSamwichcontac {
-        margin-top:-360px;
-    } */
-
-
-
     .mainContact legend {
         display: none;
     }
-
 }
 
 @media (max-width:1200px) and (min-width: 900px) {

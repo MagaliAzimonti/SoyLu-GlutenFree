@@ -1,19 +1,15 @@
-
-/* ESTILOS PRODUCTS */
-
+/* Estilos Products */
 .mainProduct {
     background-color: #FDF9F7;
 }
 
-.mainProduct  {
+.mainProduct {
     overflow: hidden;
     position: relative;
     height: 100%;
 }
 
-
-
-.mainProduct  .prodsDiv {
+.mainProduct .prodsDiv {
     z-index: 10;
     background-position: center;
     background-size: cover;
@@ -24,8 +20,6 @@
 .mainProduct .prodsDiv p {
     font-style: normal;
 }
-
-/* mediaQueriesProducts */
 
 @media (max-width: 899px) {
     .mainProduct .gridProds {
@@ -53,7 +47,7 @@
         display: none;
     }
 
-    .mainProduct  a {
+    .mainProduct a {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -61,7 +55,7 @@
         align-items: center;
     }
 
-    .mainProduct  .prodsDiv {
+    .mainProduct .prodsDiv {
         display: flex;
         align-items: end;
         height: 188px;
@@ -69,7 +63,7 @@
         margin-bottom: 32px;
     }
 
-    .mainProduct  .rectangleProdsOne {
+    .mainProduct .rectangleProdsOne {
         height: 112px;
         transform: rotate(34.93deg);
         background: radial-gradient(50% 50% at 50% 50%, rgba(255, 179, 206, 0.36) 0%, rgba(255, 227, 179, 0.36) 100%);
@@ -80,8 +74,6 @@
         width: 300%;
         background-position: center;
         margin-top: 350px;
-        
-        
     }
 
     .mainProduct .rectangleProdsTwo {
@@ -111,27 +103,25 @@
     }
 
     .footerProds {
-
         display: none;
     }
 
-    .mainProduct  .prodOne {
+    .mainProduct .prodOne {
         background-image: url(../images/mobile/products_image_one.png);
     }
-    
-    .mainProduct  .prodTwo {
+
+    .mainProduct .prodTwo {
         z-index: 10;
         background-image: url(../images/mobile/products_image_two.png);
     }
-    
-    .mainProduct  .prodThree {
+
+    .mainProduct .prodThree {
         background-image: url(../images/mobile/products_image_three.png);
     }
-    
-    .mainProduct  .prodFour {
+
+    .mainProduct .prodFour {
         background-image: url(../images/mobile/products_image_four.png);
     }
-
 }
 
 @media (max-width: 345px) {
@@ -140,4 +130,3 @@
         padding: 10px;
     }
 }
-

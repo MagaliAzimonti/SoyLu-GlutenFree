@@ -16,40 +16,29 @@ a {
     text-decoration: none;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 15px;
 }
 
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     border-radius: 50px;
     background-color: #eeb8a1;
 }
-body::-webkit-scrollbar-thumb:hover{
+
+body::-webkit-scrollbar-thumb:hover {
     background: #F2A654;
     border-radius: 50px;
 }
 
-
-
-/* ESTILOS HEADER */
-
-
-
+/* Estilos header */
 .enlace {
     position: absolute;
-    /* padding: 20px 50px; */
 }
-
-/* .logo {
-    height: 40px;
-} */
 
 nav ul {
     float: right;
     margin-right: 20px;
 }
-
-
 
 nav ul li a {
     color: black;
@@ -71,11 +60,7 @@ li a:hover {
     display: none;
 }
 
-/* MediaQueriesHeader */
-
-
 @media (max-width: 899px) {
-
     nav .fa-chevron-down {
         display: none;
     }
@@ -83,6 +68,7 @@ li a:hover {
     main {
         padding-top: 109px;
     }
+
     nav {
         height: 109px;
         width: 100%;
@@ -93,7 +79,6 @@ li a:hover {
         display: flex;
         flex-direction: row;
         align-items: center;
-        
     }
 
     .checkbtn {
@@ -105,27 +90,20 @@ li a:hover {
     }
 
     .enlace {
-        /* margin-left: -25px;
-        margin-top: -12px; */
         width: 144px;
         display: flex;
         flex-direction: row;
-        
         margin-top: 5px;
     }
 
     .enlace img {
         width: 100%;
         height: 100%;
-        /* margin: 10px 5px; */
     }
 
     .checkbtn img {
         width: 100%;
         height: 100%;
-        
-       
-
     }
 
     nav ul {
@@ -149,7 +127,6 @@ li a:hover {
         line-height: 80px;
         margin: -13px 5px;
         margin-left: -15px;
-
     }
 
     nav ul li a {
@@ -171,35 +148,16 @@ li a:hover {
         right: -30px;
     }
 
-    
-
-
-    /* 
-    .headerAbout nav ul {
-        top: 130px;
-        z-index: 999;
-    }
-
-    .headerAbout nav .enlace {
-        width: 200px;
-        height: 184px;
-    }
-
-    .headerAbout nav .enlace img {
-        width: 100%;
-        height: 100%;
-    } */
-
     .dropdownItem {
         display: none;
     }
 
     .headerIndex {
         box-shadow: 0 0 10px #000;
-        background: rgba(0,0,0,0.5);
-     }
+        background: rgba(0, 0, 0, 0.5);
+    }
 
-     .headerIndex .enlace {
+    .headerIndex .enlace {
         position: absolute;
         width: 84px;
         height: 61.61px;
@@ -215,49 +173,34 @@ li a:hover {
     .headerAbout {
         justify-content: center;
         height: 130px;
-
     }
+
     .headerAbout .checkbtn {
-       margin-bottom: 40px;
+        margin-bottom: 40px;
     }
 
     .headerAbout ul {
         top: 130px;
         z-index: 999;
-        
     }
 
     .headerAbout .enlace {
         position: absolute;
         width: 160.81px;
-        margin:0px;
+        margin: 0px;
         padding: 0px;
-    
     }
 
     .headerAbout .enlace img {
         width: 100%;
         height: 100%;
-    } 
-
-   
-
-    
-}
-
-/* @media (max-width: 952px) {
-    .enlace {
-        padding-left: -20px;
-       height: 300px;
     }
 }
- */
 
 @media (max-width:1439px) and (min-width: 900px) {
     nav {
         height: 132px;
         width: 100%;
-        /* de prueba */
         background-color: #FDF9F7;
         position: fixed;
         z-index: 999;
@@ -269,12 +212,10 @@ li a:hover {
     .enlace {
         left: 0;
         position: absolute;
-        /* margin-top: -47px;
-        margin-left: -14px; */
-       width: 161px;
-       height: 161px;
-       margin-top: -10px;
-       margin-left: 10px;
+        width: 161px;
+        height: 161px;
+        margin-top: -10px;
+        margin-left: 10px;
     }
 
     .logo {
@@ -282,38 +223,26 @@ li a:hover {
         height: 100%;
     }
 
-    /* .logo {
-        width: 173px;
-        
-    } */
-
     nav ul {
         display: flex;
         flex-direction: row;
         justify-content: end;
-       /*  float: right; */
         margin-top: 25px;
         width: 100%;
     }
 
     nav ul li {
         font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: -0.011em;
-color: #2F2F2F;
-padding-right: 1.5%;
-/* padding-right: 14px;
- */
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.011em;
+        color: #2F2F2F;
+        padding-right: 1.5%;
     }
-
-   
-
 
     nav ul li a {
         color: #2F2F2F;
-
     }
 
     li a.active,
@@ -376,14 +305,11 @@ padding-right: 1.5%;
         padding-left: 10px;
     }
 
-
     nav ul li:hover .dropdownMenu {
         display: block;
     }
 
     .dropdownMenu li a:hover {
-        /* border-radius: 10px;
-        background-color: rgba(242, 166, 84, 1); */
         color: #2F2F2F;
         font-weight: 700;
         border-bottom: 0px;
@@ -400,27 +326,23 @@ padding-right: 1.5%;
     .not-active {
         pointer-events: none;
         cursor: default;
-
     }
 
     .headerIndex {
         box-shadow: 0 0 10px #000;
-        background: rgba(0,0,0,0.6);
-     }
+        background: rgba(0, 0, 0, 0.6);
+    }
 
     .headerIndex ul li a {
         color: #FDF9F7;
-            font-size: 16px;
-            border-radius: 3px;
+        font-size: 16px;
+        border-radius: 3px;
     }
-
-    
 
     .headerIndex .fa-chevron-down {
         color: #FDF9F7;
         font-size: 10px;
         margin-left: 5px;
-
     }
 
     .headerIndex ul li .dropdownMenu {
@@ -467,32 +389,28 @@ padding-right: 1.5%;
 
     .headerIndex .enlace {
         position: absolute;
-       margin-left: 43px;
-       margin-top:-5px;
+        margin-left: 43px;
+        margin-top: -5px;
         width: 93px;
         height: 68px;
     }
 
     main {
-        padding-top:132px;
+        padding-top: 132px;
     }
-
 }
 
-@media (max-width: 1439px) and (min-width: 1100px){
+@media (max-width: 1439px) and (min-width: 1100px) {
     nav ul li {
-    font-size: 16px;
-    padding-right: 2.5%;
+        font-size: 16px;
+        padding-right: 2.5%;
     }
 }
-
-
 
 @media (min-width: 1440px) {
     nav {
         height: 132px;
         width: 100%;
-        /* de prueba */
         background-color: #FDF9F7;
         position: fixed;
         z-index: 999;
@@ -504,13 +422,8 @@ padding-right: 1.5%;
 
     .enlace {
         position: absolute;
-        /* margin-top: -47px;
-        margin-left: -14px; */
-       width: 161px;
-       height: 161px;
-      
-       /* margin-top: -10px; */
-       /* margin-left: 10px; */
+        width: 161px;
+        height: 161px;
     }
 
     .logo {
@@ -518,47 +431,35 @@ padding-right: 1.5%;
         height: 100%;
     }
 
-    /* .logo {
-        width: 173px;
-        
-    } */
-
     nav ul {
-/*         margin-left: 421px;
- */        /* float: right; */
         margin-top: 25px;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        
     }
 
     nav ul li {
         font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: -0.011em;
-color: #2F2F2F;
-padding-right: 2.5%;
-/* padding-right: 34px;
- */
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: -0.011em;
+        color: #2F2F2F;
+        padding-right: 2.5%;
     }
 
     nav ul li a {
         color: #2F2F2F;
-        /* padding: 7px 13px; */
         border-radius: 3px;
-        
     }
 
     li a.active,
     li a:hover {
         font-weight: 700;
         color: #2F2F2F;
-        border-bottom:  4px solid rgba(242, 166, 84, 1);
- }
+        border-bottom: 4px solid rgba(242, 166, 84, 1);
+    }
 
     .checkbtn {
         font-size: 30px;
@@ -612,21 +513,16 @@ padding-right: 2.5%;
         padding-left: 15px;
     }
 
-
     nav ul li:hover .dropdownMenu {
         display: block;
     }
 
     .dropdownMenu li a:hover {
-        /* border-radius: 10px;
-        background-color: rgba(242, 166, 84, 1); */
         color: #2F2F2F;
         font-weight: 700;
         border-bottom: 0px;
         text-decoration: underline 4px rgba(242, 166, 84, 1);
     }
-
-    
 
     .dropdownMenu a.active {
         font-weight: 700;
@@ -640,11 +536,10 @@ padding-right: 2.5%;
         cursor: default;
     }
 
-    /* de prueba */
     .headerIndex {
         box-shadow: 0 0 10px #000;
-        background: rgba(0,0,0,0.6);
-     }
+        background: rgba(0, 0, 0, 0.6);
+    }
 
     .headerIndex ul li a {
         color: #FDF9F7;
@@ -654,7 +549,6 @@ padding-right: 2.5%;
         color: #FDF9F7;
         font-size: 10px;
         margin-left: 5px;
-
     }
 
     .headerIndex ul li .dropdownMenu {
@@ -695,26 +589,20 @@ padding-right: 2.5%;
         color: #2F2F2F;
     }
 
-    
-
     .headerIndex .enlace {
         position: absolute;
-       width: 95px;
-       height: 70px;
-       margin-left: 42px;
-       margin-top: -5px;
-        /* margin-top: 41px;
-        margin-left: 47px; */
-       /* width: 173px;
-       height: 126px; */
+        width: 95px;
+        height: 70px;
+        margin-left: 42px;
+        margin-top: -5px;
     }
 
     .enlace {
         position: absolute;
-       width: 161px;
-       height: 161px;
-       margin-top: -10px;
-       margin-left: 10px;
+        width: 161px;
+        height: 161px;
+        margin-top: -10px;
+        margin-left: 10px;
     }
 
     .logo {
@@ -722,11 +610,7 @@ padding-right: 2.5%;
         height: 100%;
     }
 
-    /* de prueba */
     main {
-        padding-top:132px;
+        padding-top: 132px;
     }
-
-
-
 }
