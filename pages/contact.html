@@ -62,7 +62,8 @@
             <div class="rectangleContact"></div>
             <div class="gridContact">
                 <div class="formularioContact container-fluid">
-                    <form class="row">
+                    <form class="row" action="https://formspree.io/f/xrgvlaqv"
+                    method="POST">
                         <div class="col-xl-5"></div>
                         <div class=" titleContactDesk col-xl-5">
                             <h1 class="h1TitleContactDesk">Contacto</h1>
@@ -72,23 +73,23 @@
                         <div class="formFieldset col-xl-5">
                             <label>Nombre</label>
                             <fieldset class="border border-secondary rounded-2">
-                                <input type="name" class="form-control" id="nameImput">
+                                <input type="name" name="name" class="form-control" id="nameImput" required>
                             </fieldset>
                             <label>Correo electrónico</label>
                             <fieldset class="border border-secondary rounded-2">
-                                <input type="email" class="form-control" id="emailImput ">
+                                <input type="email" name="email" class="form-control" id="emailImput" required>
                             </fieldset>
                             <label>Teléfono</label>
                             <fieldset class="border border-secondary rounded-2">
-                                <input type="phone" class="form-control" id="phoneImput ">
+                                <input type="phone" name="phone" class="form-control" id="phoneImput ">
                             </fieldset>
                             <label>Comentarios</label>
                             <fieldset class="border border-secondary rounded-2" id="fieldsetId">
-                                <textarea class="form-control textAreaContact" id="exampleFormControlTextarea1"
+                                <textarea class="form-control textAreaContact" name="message" id="exampleFormControlTextarea1"
                                     rows="3"></textarea>
                             </fieldset>
                             <div class="divDelButtonDelFormulario">
-                                <a href=""><button type="submit" class="buttonDelformulario1">Enviar</button></a>
+                                <button type="submit" class="buttonDelformulario1">Enviar</button>
                             </div>
                         </div>
                     </form>
