@@ -48,7 +48,7 @@
     .titlePanaderia {
         z-index: 10;
         margin-top: 32px;
-        background-image: url(../images/mobile/bakery_image_one.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bakery_image_one.jpg);
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -140,7 +140,7 @@
 
     .titleTortas {
         z-index: 10;
-        background-image: url(../images/mobile/bakery_image_two.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bakery_image_two.jpg);
         width: 90%;
         border-radius: 10px;
         height: 188px;

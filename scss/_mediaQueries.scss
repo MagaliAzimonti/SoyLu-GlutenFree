@@ -1,7 +1,7 @@
 /* Estilos index Desktop */
 @media (min-width: 900px) {
     .heroImageIndex {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/desktop/heroImageIndex.jpg);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
         transform: rotate(0.06deg);
         align-items: center;
         height: 1024px;
@@ -347,32 +347,32 @@
     }
 
     .divImagenesCarrousel div .imgCarrOne {
-        background-image: url(../images/desktop/carousel_first_one.jpg);
+        background-image: url(../images/carousel_first_one.jpg);
         background-position: center;
         background-size: cover;
     }
     .divImagenesCarrousel div .imgCarrTwo {
-        background-image: url(../images/desktop/carousel_first_two.jpg);
+        background-image: url(../images/carousel_first_two.jpg);
         background-position: center;
         background-size: cover;
     }
     .divImagenesCarrousel div .imgCarrThree {
-        background-image: url(../images/desktop/carousel_first_three.jpg);
+        background-image: url(../images/carousel_first_three.jpg);
         background-position: center;
         background-size: cover;
     }
     .divImagenesCarrousel div .imgCarrFour {
-        background-image: url(../images/desktop/carousel_first_four.jpg);
+        background-image: url(../images/carousel_first_four.jpg);
         background-position: center;
         background-size: cover;
     }
     .divImagenesCarrousel div .imgCarrFive {
-        background-image: url(../images/desktop/carousel_first_five.jpg);
+        background-image: url(../images/carousel_first_five.jpg);
         background-position: center;
         background-size: cover;
     }
     .divImagenesCarrousel div .imgCarrSix {
-        background-image: url(../images/desktop/carousel_first_six.jpg);
+        background-image: url(../images/carousel_first_six.jpg);
         background-position: center;
         background-size: cover;
     }
@@ -683,11 +683,11 @@
         background-image: url(../images/desktop/about_hero_image.jpg);
         width: 80%;
         border-radius: 20px;
-        height: 546px;
+        height: 560px;
         background-size: cover;
         background-repeat: no-repeat;
         margin-top: 92px;
-        top:32px;
+        background-position: 0 -32px;
     }
 
     .firstSectionAbout .divParAbout {
@@ -1156,20 +1156,35 @@
     }
 
     .mainProduct .prodOne {
-        background-image: url(../images/desktop/products_image_one.png);
+        z-index: 10;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_one.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .mainProduct .prodTwo {
         z-index: 10;
-        background-image: url(../images/desktop/products_image_two.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_two.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .mainProduct .prodThree {
-        background-image: url(../images/desktop/products_image_three.png);
+        z-index: 10;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_three.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .mainProduct .prodFour {
-        background-image: url(../images/desktop/products_image_four.png);
+        z-index: 10;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_four.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     .mainProduct .prodsDiv {
@@ -1251,7 +1266,7 @@
 
     .firstSectionFavs .titleFavs {
         z-index: 10;
-        background-image: url(../images/desktop/heroImageFavs.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/heroImageFavs.png);
         width: 100%;
         height: 312px;
         background-position: center;
@@ -1314,6 +1329,9 @@
     }
 
     .imgFavsDesktop {
+        background-image: url(../images/favs_image.jpg);
+        background-position: center;
+        background-size: cover;
         width: 428px;
         height: 428px;
         align-self: center;
@@ -1424,12 +1442,12 @@
 
     .titleEmpanadas {
         z-index: 10;
-        background-image: url(../images/desktop/frozen_banner.png);
         width: 100%;
         height: 312px;
-        background-position: center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/frozen_banner.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 0px 39%;
         justify-content: center;
         display: flex;
         align-items: center;
@@ -1499,6 +1517,12 @@
         align-self: baseline;
         z-index: 20;
         border-radius: 20px;
+        background-image: url(../images/desktop/frozen_image_one.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .divEmpanadas p {
@@ -1681,6 +1705,11 @@
         grid-area: imgRebozados;
         margin-top: 62px;
         border-radius: 20px;
+        background-image: url(../images/frozen_image_two.jpg);
+        width: 428px;
+        height: 428px;
+        background-position: center;
+        background-size: cover;
     }
 
     .btnFrozenTwoDiv {
@@ -1774,7 +1803,7 @@
 
     .titlePanaderia {
         z-index: 10;
-        background-image: url(../images/desktop/bakery_banner.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/bakery_banner.jpg);
         width: 100%;
         height: 312px;
         background-position: center;
@@ -1818,7 +1847,11 @@
         z-index: 20;
         margin-top: 200px;
         border-radius: 20px;
-
+        background-image: url(../images/bakery_image_one.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: center;
+        background-size: cover;
     }
 
     .btnBakeryDiv {
@@ -1928,6 +1961,11 @@
         border-radius: 20px;
         z-index: 20;
         grid-area: imgBakeryDkTwo;
+        background-image: url(../images/bakery_image_two.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: center;
+        background-size: cover;
     }
 
     .btnBakeryTwoDiv {
@@ -2011,16 +2049,16 @@
 @media (min-width:1100px) {
     .titleSandwiches {
         z-index: 10;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         justify-content: center;
         display: flex;
         align-items: center;
         margin-bottom: 32px;
         width: 100%;
         height: 312px;
-        background-image: url(../images/desktop/lunch_banner.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/lunch_banner.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .rectangleLunches {
@@ -2103,6 +2141,12 @@
         z-index: 20;
         border-radius: 20px;
         grid-area: imgLunchDesk;
+        background-image: url(../images/lunch_image_one.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: 30% 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .btnLunchDiv {
@@ -2207,6 +2251,12 @@
         margin-top: 88px;
         border-radius: 20px;
         grid-area: imgLunchTwo;
+        background-image: url(../images/lunch_image_two.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .h2LunchDesk-2 {
@@ -2315,6 +2365,12 @@
         z-index: 20;
         border-radius: 20px;
         grid-area: imgLunchThree;
+        background-image: url(../images/carousel_first_four.jpg);
+        height: 428px;
+        width: 428px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .btnLunchDiv-3 {
@@ -2439,10 +2495,10 @@
     }
 
     .secondSectionOrder .sectionTakeAway {
-        background-image: url(../images/desktop/heroImageOrder.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/heroImageIndex.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: 0 60%;
         width: 100%;
         height: 230px;
         display: flex;

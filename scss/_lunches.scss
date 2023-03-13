@@ -55,14 +55,14 @@
     .titleSandwiches {
         z-index: 10;
         margin-top: 32px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
         justify-content: center;
         display: flex;
         align-items: center;
         margin-bottom: 48px;
-        background-image: url(../images/mobile/lunch_image_one.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/lunch_image_one.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -163,7 +163,7 @@
 
     .titleWraps {
         z-index: 10;
-        background-image: url(../images/mobile/lunch_image_two.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/lunch_image_two.jpg);
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -242,7 +242,7 @@
     .titleEnsaladas {
         z-index: 10;
         margin-top: 8px;
-        background-image: url(../images/mobile/lunch_image_three.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/carousel_first_four.jpg);
         width: 90%;
         border-radius: 10px;
         height: 188px;
@@ -319,7 +319,6 @@
         align-items: center;
         padding: 0px;
         gap: 8px;
-
         position: relative;
         width: 143px;
         height: 44px;

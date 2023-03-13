@@ -32,7 +32,7 @@
     .firstSectionFavs .titleFavs {
         z-index: 10;
         margin-top: 32px;
-        background-image: url(../images/mobile/favs_image.png);
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/favs_image.jpg);
         width: 90%;
         border-radius: 5px;
         height: 188px;

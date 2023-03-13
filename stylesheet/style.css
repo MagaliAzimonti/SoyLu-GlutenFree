@@ -590,22 +590,22 @@ li a:hover {
   background-size: cover; }
 
 .elementoUno {
-  background-image: url(../images/mobile/carousel_second_one.jpg); }
+  background-image: url(../images/carousel_first_one.jpg); }
 
 .elementoDos {
-  background-image: url(../images/mobile/carousel_second_two.jpg); }
+  background-image: url(../images/carousel_first_two.jpg); }
 
 .elementoTres {
-  background-image: url(../images/mobile/carousel_second_three.jpg); }
+  background-image: url(../images/carousel_first_three.jpg); }
 
 .elementoCuatro {
-  background-image: url(../images/mobile/carousel_second_four.jpg); }
+  background-image: url(../images/carousel_first_four.jpg); }
 
 .elementoCinco {
-  background-image: url(../images/mobile/carousel_second_five.jpg); }
+  background-image: url(../images/carousel_first_five.jpg); }
 
 .elementoSeis {
-  background-image: url(../images/mobile/carousel_second_six.jpg); }
+  background-image: url(../images/carousel_first_six.jpg); }
 
 .carousel1P {
   font-style: normal;
@@ -1492,7 +1492,7 @@ input[type]:focus {
     text-align: center;
     overflow: hidden; }
   .secondSectionOrder .sectionTakeAway {
-    background-image: url(../images/mobile/order_banner.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/heroImageIndex.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1702,22 +1702,22 @@ input[type]:focus {
   .footerProds {
     display: none; }
   .mainProduct .prodOne {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_one.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_one.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 32px;
     z-index: 10; }
   .mainProduct .prodTwo {
     z-index: 10;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_two.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_two.jpg);
     background-position: center;
     background-size: cover; }
   .mainProduct .prodThree {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_three.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_three.jpg);
     background-position: center;
     background-size: cover; }
   .mainProduct .prodFour {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/products_image_four.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_four.jpg);
     background-position: center;
     background-size: cover; } }
 
@@ -1754,7 +1754,7 @@ input[type]:focus {
   .firstSectionFavs .titleFavs {
     z-index: 10;
     margin-top: 32px;
-    background-image: url(../images/mobile/favs_image.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/favs_image.jpg);
     width: 90%;
     border-radius: 5px;
     height: 188px;
@@ -1873,12 +1873,12 @@ input[type]:focus {
   .titleEmpanadas {
     z-index: 10;
     margin-top: 42px;
-    background-image: url(../images/mobile/frozen_image_one.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mobile/frozen_image_one.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
     display: flex;
@@ -1949,7 +1949,7 @@ input[type]:focus {
     overflow: hidden; }
   .titleRebozados {
     z-index: 10;
-    background-image: url(../images/mobile/frozen_image_two.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/frozen_image_two.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2126,7 +2126,7 @@ input[type]:focus {
   .titlePanaderia {
     z-index: 10;
     margin-top: 32px;
-    background-image: url(../images/mobile/bakery_image_one.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bakery_image_one.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2202,7 +2202,7 @@ input[type]:focus {
     overflow: hidden; }
   .titleTortas {
     z-index: 10;
-    background-image: url(../images/mobile/bakery_image_two.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bakery_image_two.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2320,14 +2320,14 @@ input[type]:focus {
   .titleSandwiches {
     z-index: 10;
     margin-top: 32px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     justify-content: center;
     display: flex;
     align-items: center;
     margin-bottom: 48px;
-    background-image: url(../images/mobile/lunch_image_one.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/lunch_image_one.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 90%;
     border-radius: 10px;
     height: 188px; }
@@ -2408,7 +2408,7 @@ input[type]:focus {
     overflow: hidden; }
   .titleWraps {
     z-index: 10;
-    background-image: url(../images/mobile/lunch_image_two.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/lunch_image_two.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2469,7 +2469,7 @@ input[type]:focus {
   .titleEnsaladas {
     z-index: 10;
     margin-top: 8px;
-    background-image: url(../images/mobile/lunch_image_three.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/carousel_first_four.jpg);
     width: 90%;
     border-radius: 10px;
     height: 188px;
@@ -2589,7 +2589,7 @@ input[type]:focus {
 /* Estilos index Desktop */
 @media (min-width: 900px) {
   .heroImageIndex {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/desktop/heroImageIndex.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
     transform: rotate(0.06deg);
     align-items: center;
     height: 1024px; }
@@ -2848,27 +2848,27 @@ input[type]:focus {
     height: 314px;
     border-radius: 35px; }
   .divImagenesCarrousel div .imgCarrOne {
-    background-image: url(../images/desktop/carousel_first_one.jpg);
+    background-image: url(../images/carousel_first_one.jpg);
     background-position: center;
     background-size: cover; }
   .divImagenesCarrousel div .imgCarrTwo {
-    background-image: url(../images/desktop/carousel_first_two.jpg);
+    background-image: url(../images/carousel_first_two.jpg);
     background-position: center;
     background-size: cover; }
   .divImagenesCarrousel div .imgCarrThree {
-    background-image: url(../images/desktop/carousel_first_three.jpg);
+    background-image: url(../images/carousel_first_three.jpg);
     background-position: center;
     background-size: cover; }
   .divImagenesCarrousel div .imgCarrFour {
-    background-image: url(../images/desktop/carousel_first_four.jpg);
+    background-image: url(../images/carousel_first_four.jpg);
     background-position: center;
     background-size: cover; }
   .divImagenesCarrousel div .imgCarrFive {
-    background-image: url(../images/desktop/carousel_first_five.jpg);
+    background-image: url(../images/carousel_first_five.jpg);
     background-position: center;
     background-size: cover; }
   .divImagenesCarrousel div .imgCarrSix {
-    background-image: url(../images/desktop/carousel_first_six.jpg);
+    background-image: url(../images/carousel_first_six.jpg);
     background-position: center;
     background-size: cover; }
   .itemCarrouselArrows {
@@ -3094,11 +3094,11 @@ input[type]:focus {
     background-image: url(../images/desktop/about_hero_image.jpg);
     width: 80%;
     border-radius: 20px;
-    height: 546px;
+    height: 560px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 92px;
-    top: 32px; }
+    background-position: 0 -32px; }
   .firstSectionAbout .divParAbout {
     margin-top: 52px;
     display: flex;
@@ -3442,14 +3442,29 @@ input[type]:focus {
     justify-self: left;
     z-index: 20; }
   .mainProduct .prodOne {
-    background-image: url(../images/desktop/products_image_one.png); }
+    z-index: 10;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_one.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
   .mainProduct .prodTwo {
     z-index: 10;
-    background-image: url(../images/desktop/products_image_two.png); }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_two.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
   .mainProduct .prodThree {
-    background-image: url(../images/desktop/products_image_three.png); }
+    z-index: 10;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_three.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
   .mainProduct .prodFour {
-    background-image: url(../images/desktop/products_image_four.png); }
+    z-index: 10;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/products_image_four.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; }
   .mainProduct .prodsDiv {
     height: 285px;
     width: 543px;
@@ -3508,7 +3523,7 @@ input[type]:focus {
     display: none; }
   .firstSectionFavs .titleFavs {
     z-index: 10;
-    background-image: url(../images/desktop/heroImageFavs.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/heroImageFavs.png);
     width: 100%;
     height: 312px;
     background-position: center;
@@ -3554,6 +3569,9 @@ input[type]:focus {
     align-self: center;
     grid-area: listOneFavs; }
   .imgFavsDesktop {
+    background-image: url(../images/favs_image.jpg);
+    background-position: center;
+    background-size: cover;
     width: 428px;
     height: 428px;
     align-self: center;
@@ -3639,12 +3657,12 @@ input[type]:focus {
     display: none; }
   .titleEmpanadas {
     z-index: 10;
-    background-image: url(../images/desktop/frozen_banner.png);
     width: 100%;
     height: 312px;
-    background-position: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/frozen_banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 0px 39%;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -3696,7 +3714,13 @@ input[type]:focus {
     grid-area: imgEmpanadasDesktop;
     align-self: baseline;
     z-index: 20;
-    border-radius: 20px; }
+    border-radius: 20px;
+    background-image: url(../images/desktop/frozen_image_one.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat; }
   .divEmpanadas p {
     font-style: normal;
     font-weight: 600;
@@ -3836,7 +3860,12 @@ input[type]:focus {
     z-index: 20;
     grid-area: imgRebozados;
     margin-top: 62px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    background-image: url(../images/frozen_image_two.jpg);
+    width: 428px;
+    height: 428px;
+    background-position: center;
+    background-size: cover; }
   .btnFrozenTwoDiv {
     z-index: 20;
     grid-area: btnFrozenTwoDiv;
@@ -3908,7 +3937,7 @@ input[type]:focus {
     display: none; }
   .titlePanaderia {
     z-index: 10;
-    background-image: url(../images/desktop/bakery_banner.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/bakery_banner.jpg);
     width: 100%;
     height: 312px;
     background-position: center;
@@ -3941,7 +3970,12 @@ input[type]:focus {
     grid-area: imgBakeryOneDk;
     z-index: 20;
     margin-top: 200px;
-    border-radius: 20px; }
+    border-radius: 20px;
+    background-image: url(../images/bakery_image_one.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: center;
+    background-size: cover; }
   .btnBakeryDiv {
     grid-area: btnBakeryDiv;
     z-index: 20;
@@ -4025,7 +4059,12 @@ input[type]:focus {
     margin-top: 100px;
     border-radius: 20px;
     z-index: 20;
-    grid-area: imgBakeryDkTwo; }
+    grid-area: imgBakeryDkTwo;
+    background-image: url(../images/bakery_image_two.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: center;
+    background-size: cover; }
   .btnBakeryTwoDiv {
     display: flex;
     flex-direction: column;
@@ -4091,16 +4130,16 @@ input[type]:focus {
 @media (min-width: 1100px) {
   .titleSandwiches {
     z-index: 10;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     justify-content: center;
     display: flex;
     align-items: center;
     margin-bottom: 32px;
     width: 100%;
     height: 312px;
-    background-image: url(../images/desktop/lunch_banner.png); }
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/desktop/lunch_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
   .rectangleLunches {
     height: 266.1px;
     position: absolute;
@@ -4159,7 +4198,13 @@ input[type]:focus {
     margin-top: 100px;
     z-index: 20;
     border-radius: 20px;
-    grid-area: imgLunchDesk; }
+    grid-area: imgLunchDesk;
+    background-image: url(../images/lunch_image_one.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: 30% 0px;
+    background-size: cover;
+    background-repeat: no-repeat; }
   .btnLunchDiv {
     grid-area: btnLunchDiv; }
   .containerGridLunchOne .listOne h3 {
@@ -4239,7 +4284,13 @@ input[type]:focus {
   .imgLunchTwo {
     margin-top: 88px;
     border-radius: 20px;
-    grid-area: imgLunchTwo; }
+    grid-area: imgLunchTwo;
+    background-image: url(../images/lunch_image_two.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .h2LunchDesk-2 {
     display: none; }
   .secondSectionLunch .listTwo h2 {
@@ -4320,7 +4371,13 @@ input[type]:focus {
   .imgLunchThree {
     z-index: 20;
     border-radius: 20px;
-    grid-area: imgLunchThree; }
+    grid-area: imgLunchThree;
+    background-image: url(../images/carousel_first_four.jpg);
+    height: 428px;
+    width: 428px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
   .btnLunchDiv-3 {
     grid-area: btnLunchDiv-3;
     margin-top: 22px;
@@ -4411,10 +4468,10 @@ input[type]:focus {
     height: 100%;
     overflow: hidden; }
   .secondSectionOrder .sectionTakeAway {
-    background-image: url(../images/desktop/heroImageOrder.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/heroImageIndex.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 60%;
     width: 100%;
     height: 230px;
     display: flex;
