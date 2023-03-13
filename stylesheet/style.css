@@ -71,10 +71,11 @@ li a:hover {
     margin-left: 85%;
     margin-bottom: 40px; }
   .enlace {
-    width: 144px;
+    width: 83px;
     display: flex;
     flex-direction: row;
-    margin-top: 5px; }
+    margin-top: 5px;
+    margin-left: 17px; }
   .enlace img {
     width: 100%;
     height: 100%; }
@@ -119,10 +120,9 @@ li a:hover {
     background: rgba(0, 0, 0, 0.5); }
   .headerIndex .enlace {
     position: absolute;
-    width: 84px;
-    height: 61.61px;
-    margin-left: 20px;
-    margin-top: 10px; }
+    width: 83px;
+    margin-left: 17px;
+    margin-top: 5px; }
   .headerIndex .enlace img {
     width: 100%;
     height: 100%; }
@@ -136,7 +136,7 @@ li a:hover {
     z-index: 999; }
   .headerAbout .enlace {
     position: absolute;
-    width: 160.81px;
+    width: 106.81px;
     margin: 0px;
     padding: 0px; }
   .headerAbout .enlace img {
@@ -154,12 +154,9 @@ li a:hover {
     display: flex;
     align-items: center; }
   .enlace {
-    left: 0;
     position: absolute;
-    width: 161px;
-    height: 161px;
-    margin-top: -10px;
-    margin-left: 10px; }
+    width: 93px;
+    margin-left: 40px; }
   .logo {
     width: 100%;
     height: 100%; }
@@ -314,8 +311,8 @@ li a:hover {
     align-items: center; }
   .enlace {
     position: absolute;
-    width: 161px;
-    height: 161px; }
+    width: 93px;
+    margin-left: 40px; }
   .logo {
     width: 100%;
     height: 100%; }
@@ -445,12 +442,6 @@ li a:hover {
     height: 70px;
     margin-left: 42px;
     margin-top: -5px; }
-  .enlace {
-    position: absolute;
-    width: 161px;
-    height: 161px;
-    margin-top: -10px;
-    margin-left: 10px; }
   .logo {
     width: 100%;
     height: 100%; }
@@ -463,7 +454,8 @@ li a:hover {
   flex-direction: column;
   align-items: center;
   height: 100%;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
 .firstSectionIndex .titleTextIndex {
   margin-top: 200px;
@@ -721,12 +713,20 @@ li a:hover {
   .firstSectionIndex {
     height: 844px; }
   .heroImageIndex {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
     height: 100%;
-    overflow: hidden;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
-    transform: rotate(0.06deg);
+    background-size: cover;
     background-position: 83% 0;
-    background-size: cover; }
+    background-repeat: no-repeat; }
+  /* .heroImageIndex {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
+        transform: rotate(0.06deg);
+        height: 844px;
+        background-size: cover;
+        background-position: 83% 0;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    } */
   .carrousel {
     display: none; }
   .carrouselTwo {
@@ -1167,8 +1167,7 @@ main {
     justify-content: center;
     padding: 10px;
     background: rgba(255, 170, 136, 0.6);
-    height: 64px;
-    position: relative; }
+    height: 64px; }
   .divContactIformation p {
     margin: 14px;
     font-style: normal;
@@ -1621,9 +1620,6 @@ input[type]:focus {
 
 /* Estilos Products */
 .mainProduct {
-  background-color: #FDF9F7; }
-
-.mainProduct {
   overflow: hidden;
   position: relative;
   height: 100%; }
@@ -1655,7 +1651,8 @@ input[type]:focus {
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
-    padding-top: 32px; }
+    padding-top: 32px;
+    z-index: 60; }
   .mainProduct .productMainH1Desktop {
     display: none; }
   .mainProduct a {
@@ -1726,6 +1723,12 @@ input[type]:focus {
     width: 100%;
     padding: 10px; } }
 
+@media (max-width: 899px) and (min-width: 595px) {
+  .mainProduct .rectangleProdsOne {
+    display: none; }
+  .mainProduct .rectangleProdsTwo {
+    display: none; } }
+
 /* Estilos favs */
 .firstSectionFavs {
   background: #FDF9F7; }
@@ -1738,7 +1741,7 @@ input[type]:focus {
   height: 100%;
   overflow: hidden; }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .firstSectionFavs {
     justify-content: center; }
   .firstSectionFavs h1 {
@@ -1786,6 +1789,8 @@ input[type]:focus {
     display: none; }
   .imgFavsDesktop {
     display: none; }
+  .firstSectionFavs .listOne {
+    position: relative; }
   .firstSectionFavs .listOne div h3 {
     z-index: 20;
     font-style: normal;
@@ -1843,7 +1848,7 @@ input[type]:focus {
     color: #050505; } }
 
 /* Estilos frozen */
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .firstSectionFrozen {
     background: #FDF9F7;
     height: 100%;
@@ -2099,7 +2104,7 @@ input[type]:focus {
   overflow: hidden;
   position: relative; }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .titleTortasDesk {
     display: none; }
   .firstSectionBakery {
@@ -2289,7 +2294,7 @@ input[type]:focus {
   overflow: hidden;
   position: relative; }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
   .h2LunchDesktop-3 {
     display: none; }
   .h2LunchDesk {
@@ -2589,8 +2594,10 @@ input[type]:focus {
 /* Estilos index Desktop */
 @media (min-width: 900px) {
   .heroImageIndex {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
-    transform: rotate(0.06deg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180.35deg, rgba(0, 0, 0, 0.5) 6.47%, rgba(0, 0, 0, 0) 22.3%), url(../images/heroImageIndex.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     align-items: center;
     height: 1024px; }
   .firstTitleIndex {
@@ -3515,7 +3522,7 @@ input[type]:focus {
     margin-top: 32px; } }
 
 /* Estilos favs Desktop */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .firstSectionFavs {
     position: relative;
     overflow: hidden; }
@@ -3565,13 +3572,11 @@ input[type]:focus {
     margin-top: 147px;
     grid-area: divSeven;
     margin-bottom: 10px; }
-  .containerFavsDesktop .listOne {
-    align-self: center;
-    grid-area: listOneFavs; }
   .imgFavsDesktop {
     background-image: url(../images/favs_image.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 428px;
     height: 428px;
     align-self: center;
@@ -3580,14 +3585,14 @@ input[type]:focus {
     border-radius: 20px;
     grid-area: imgFavsDesktop; }
   .firstSectionFavs .listOne {
+    align-self: center;
+    grid-area: listOneFavs;
     display: flex;
     flex-direction: column;
     text-align: start;
-    width: 110%;
-    padding: 0 162px; }
+    margin-left: 23%; }
   .firstSectionFavs .listOne div {
-    z-index: 20;
-    padding-top: 35px; }
+    z-index: 20; }
   .firstSectionFavs .listOne .divOne {
     margin-top: -35px; }
   .firstSectionFavs .listOne div h3 {
@@ -3604,18 +3609,22 @@ input[type]:focus {
     font-size: 16px;
     line-height: 36px;
     color: #2F2F2F;
-    width: 90%; }
+    width: 80%;
+    margin-bottom: 35px; }
   .firstSectionFavs .divSeven {
     display: flex;
     flex-direction: column;
-    text-align: start;
-    padding: 0 162px; }
+    align-self: baseline;
+    margin-left: 23%;
+    padding-bottom: 35px; }
   .firstSectionFavs .divSeven p {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 56px;
-    color: #2F2F2F; }
+    color: #2F2F2F;
+    width: 317px;
+    text-align: left; }
   .btnOrderTwoFavs {
     display: flex;
     flex-direction: column;
@@ -3645,8 +3654,13 @@ input[type]:focus {
     letter-spacing: 0.1px;
     color: #2F2F2F; } }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+  .imgFavsDesktop {
+    width: 328px;
+    height: 328px; } }
+
 /* Estilos frozen Desktop */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   /* First section frozen */
   .firstSectionFrozen {
     border-bottom: 2px solid rgba(255, 170, 136, 0.5);
@@ -3694,9 +3708,9 @@ input[type]:focus {
     color: #2F2F2F;
     z-index: 20;
     justify-self: baseline;
-    margin-left: 162px; }
+    margin-left: 10%; }
   .divEmpanadas {
-    margin-left: 162px;
+    margin-left: 10%;
     margin-top: 44px;
     z-index: 20;
     justify-self: baseline;
@@ -3727,7 +3741,8 @@ input[type]:focus {
     font-size: 20px;
     line-height: 56px;
     color: #2F2F2F;
-    z-index: 20; }
+    z-index: 20;
+    width: 100%; }
   .btnFrozen {
     display: flex;
     flex-direction: column;
@@ -3915,8 +3930,12 @@ input[type]:focus {
     letter-spacing: 0.1px;
     color: #2F2F2F; } }
 
+@media (max-width: 1100px) and (min-width: 900px) {
+  .divEmpanadas p {
+    width: 80%; } }
+
 /* Estilos bakery Desktop */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .rectangleBakery {
     height: 266.1px;
     position: absolute;
@@ -4046,15 +4065,15 @@ input[type]:focus {
     margin-top: 380px; }
   .titleTortasDesk {
     grid-area: titleTortas;
-    margin-top: 92px;
-    justify-self: end;
-    margin-right: 471px; }
+    margin-top: 52px;
+    margin-bottom: -80px;
+    justify-self: center;
+    margin-left: -315px; }
   .secondSectionBakery .listOne {
     grid-area: listOneBakery;
     z-index: 20;
     margin-top: 44px;
-    justify-self: end;
-    margin-right: 162px; }
+    justify-self: center; }
   .imgBakeryDkTwo {
     margin-top: 100px;
     border-radius: 20px;
@@ -4127,7 +4146,7 @@ input[type]:focus {
     color: #2F2F2F; } }
 
 /* Estilos lunch Desktop */
-@media (min-width: 1100px) {
+@media (min-width: 900px) {
   .titleSandwiches {
     z-index: 10;
     justify-content: center;
@@ -4153,7 +4172,7 @@ input[type]:focus {
     background-position: center;
     margin-top: -200px; }
   .firstSectionLunch {
-    border-bottom: 1px solid rgba(255, 170, 136, 0.4); }
+    border-bottom: 2px solid rgba(255, 170, 136, 0.4); }
   .firstSectionLunch h1 {
     display: none; }
   .h2LunchMobile {
@@ -4173,6 +4192,7 @@ input[type]:focus {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0fr 0fr 0fr;
     gap: 0px 0px;
+    grid-auto-flow: row;
     grid-template-areas: "h3LunchDesk imgLunchDesk" "listOneLunch imgLunchDesk" "btnLunchDiv btnLunchDiv"; }
   .h3LunchDesk {
     grid-area: h3LunchDesk;
@@ -4184,12 +4204,12 @@ input[type]:focus {
     justify-self: baseline;
     color: #2F2F2F;
     margin-top: 144px;
-    margin-left: 162px; }
+    margin-left: 15%;
+    z-index: 20; }
   .containerGridLunchOne .listOne {
     justify-self: baseline;
-    width: 428px;
     z-index: 20;
-    margin-left: 162px;
+    margin-left: 15%;
     margin-top: 44px;
     grid-area: listOneLunch; }
   .containerGridLunchOne .listOne div {
@@ -4221,7 +4241,8 @@ input[type]:focus {
     font-size: 16px;
     line-height: 36px;
     color: #2F2F2F;
-    z-index: 20; }
+    z-index: 20;
+    width: 80%; }
   .btnLunchDiv {
     display: flex;
     flex-direction: column;
@@ -4256,7 +4277,7 @@ input[type]:focus {
     display: grid;
     align-items: center;
     justify-items: center;
-    border: 2px solid rgba(255, 170, 136, 0.4);
+    border-bottom: 2px solid rgba(255, 170, 136, 0.4);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0fr 0fr;
     gap: 0px 0px;
@@ -4360,13 +4381,13 @@ input[type]:focus {
     color: #2F2F2F;
     margin-top: 92px;
     justify-self: baseline;
-    margin-left: 160px;
+    margin-left: 15%;
     grid-area: h2LunchDesktop-3; }
   .thirdSectionLunch .listThree {
     justify-self: baseline;
     margin-top: 9px;
     z-index: 20;
-    margin-left: 160px;
+    margin-left: 15%;
     grid-area: listThree; }
   .imgLunchThree {
     z-index: 20;

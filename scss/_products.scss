@@ -1,7 +1,4 @@
 /* Estilos Products */
-.mainProduct {
-    background-color: #FDF9F7;
-}
 
 .mainProduct {
     overflow: hidden;
@@ -10,7 +7,6 @@
 }
 
 .mainProduct .prodsDiv {
-
     z-index: 10;
     background-position: center;
     background-size: cover;
@@ -42,6 +38,7 @@
         font-size: 24px;
         line-height: 36px;
         padding-top: 32px;
+        z-index: 60;
     }
 
     .mainProduct .productMainH1Desktop {
@@ -135,5 +132,14 @@
     .mainProduct .prodsDiv p {
         width: 100%;
         padding: 10px;
+    }
+}
+
+@media (max-width:899px) and (min-width: 595px) {
+    .mainProduct .rectangleProdsOne {
+        display: none;
+    }
+    .mainProduct .rectangleProdsTwo {
+        display: none;
     }
 }

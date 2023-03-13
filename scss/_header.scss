@@ -30,6 +30,8 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 50px;
 }
 
+
+
 /* Estilos header */
 .enlace {
     position: absolute;
@@ -90,10 +92,11 @@ li a:hover {
     }
 
     .enlace {
-        width: 144px;
+        width: 83px;
         display: flex;
         flex-direction: row;
         margin-top: 5px;
+        margin-left: 17px;
     }
 
     .enlace img {
@@ -159,10 +162,9 @@ li a:hover {
 
     .headerIndex .enlace {
         position: absolute;
-        width: 84px;
-        height: 61.61px;
-        margin-left: 20px;
-        margin-top: 10px;
+        width: 83px;
+        margin-left: 17px;
+        margin-top: 5px;
     }
 
     .headerIndex .enlace img {
@@ -186,7 +188,7 @@ li a:hover {
 
     .headerAbout .enlace {
         position: absolute;
-        width: 160.81px;
+        width: 106.81px;
         margin: 0px;
         padding: 0px;
     }
@@ -210,12 +212,9 @@ li a:hover {
     }
 
     .enlace {
-        left: 0;
         position: absolute;
-        width: 161px;
-        height: 161px;
-        margin-top: -10px;
-        margin-left: 10px;
+        width: 93px;
+        margin-left: 40px;
     }
 
     .logo {
@@ -419,11 +418,10 @@ li a:hover {
         flex-direction: row;
         align-items: center;
     }
-
     .enlace {
         position: absolute;
-        width: 161px;
-        height: 161px;
+        width: 93px;
+        margin-left: 40px;
     }
 
     .logo {
@@ -595,14 +593,6 @@ li a:hover {
         height: 70px;
         margin-left: 42px;
         margin-top: -5px;
-    }
-
-    .enlace {
-        position: absolute;
-        width: 161px;
-        height: 161px;
-        margin-top: -10px;
-        margin-left: 10px;
     }
 
     .logo {

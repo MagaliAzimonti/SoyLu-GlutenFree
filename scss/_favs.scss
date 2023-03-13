@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-@media (max-width: 1099px) {
+@media (max-width: 899px) {
     .firstSectionFavs {
         justify-content: center;
     }
@@ -72,6 +72,10 @@
 
     .imgFavsDesktop {
         display: none;
+    }
+
+    .firstSectionFavs .listOne {
+        position: relative;
     }
 
     .firstSectionFavs .listOne div h3 {
